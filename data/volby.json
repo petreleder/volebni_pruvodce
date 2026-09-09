@@ -1,0 +1,4662 @@
+{
+  "meta": {
+    "elections": "Komunální a senátní volby 9.–10. 10. 2026",
+    "secondRoundSenate": "16.–17. 10. 2026",
+    "cities": [
+      "Praha",
+      "Brno",
+      "Pardubice"
+    ],
+    "note": "Senát jen obvody 21, 24, 27, 60. Pardubice (obvod 43) se letos nevolí. MČ kandidátky: ČSÚ blokoval stažení.",
+    "updated": "2026-09-09"
+  },
+  "bodies": [
+    {
+      "id": "praha",
+      "city": "Praha",
+      "kind": "city",
+      "name": "Zastupitelstvo hl. m. Prahy",
+      "seats": 65
+    },
+    {
+      "id": "brno",
+      "city": "Brno",
+      "kind": "city",
+      "name": "Zastupitelstvo města Brna",
+      "seats": 55
+    },
+    {
+      "id": "pardubice",
+      "city": "Pardubice",
+      "kind": "city",
+      "name": "Zastupitelstvo města Pardubic",
+      "seats": 39
+    },
+    {
+      "id": "sen-21",
+      "city": "Praha",
+      "kind": "senate",
+      "name": "Senát č. 21 — Praha 5",
+      "seats": 1
+    },
+    {
+      "id": "sen-24",
+      "city": "Praha",
+      "kind": "senate",
+      "name": "Senát č. 24 — Praha 9",
+      "seats": 1
+    },
+    {
+      "id": "sen-27",
+      "city": "Praha",
+      "kind": "senate",
+      "name": "Senát č. 27 — Praha 1",
+      "seats": 1
+    },
+    {
+      "id": "sen-60",
+      "city": "Brno",
+      "kind": "senate",
+      "name": "Senát č. 60 — Brno-město",
+      "seats": 1
+    },
+    {
+      "id": "praha-mc-Praha 1",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 1",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 2",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 2",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 3",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 3",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 4",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 4",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 5",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 5",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 6",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 6",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 7",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 7",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 8",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 8",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 9",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 9",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 10",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 10",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 11",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 11",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 12",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 12",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 13",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 13",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 14",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 14",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 15",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 15",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 16",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 16",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 17",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 17",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 18",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 18",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 19",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 19",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 20",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 20",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 21",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 21",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha 22",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha 22",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Kunratice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Kunratice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Libuš",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Libuš",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Lipence",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Lipence",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Lochkov",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Lochkov",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Lysolaje",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Lysolaje",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Nebušice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Nebušice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Nedvězí",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Nedvězí",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Petrovice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Petrovice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Přední Kopanina",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Přední Kopanina",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Řeporyje",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Řeporyje",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Satalice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Satalice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Slivenec",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Slivenec",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Suchdol",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Suchdol",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Šeberov",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Šeberov",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Štěrboholy",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Štěrboholy",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Troja",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Troja",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Újezd",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Újezd",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Velká Chuchle",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Velká Chuchle",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Vinoř",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Vinoř",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Zbraslav",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Zbraslav",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Zličín",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Zličín",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Běchovice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Běchovice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Benice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Benice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Březiněves",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Březiněves",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Čakovice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Čakovice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Ďáblice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Ďáblice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Dolní Chabry",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Dolní Chabry",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Dolní Měcholupy",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Dolní Měcholupy",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Dolní Počernice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Dolní Počernice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Dubeč",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Dubeč",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Klánovice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Klánovice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Koloděje",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Koloděje",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Kolovraty",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Kolovraty",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Královice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Královice",
+      "seats": null
+    },
+    {
+      "id": "praha-mc-Praha-Křeslice",
+      "city": "Praha",
+      "kind": "district",
+      "name": "Praha-Křeslice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-střed",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-střed",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-sever",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-sever",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-jih",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-jih",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Královo Pole",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Královo Pole",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Bystrc",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Bystrc",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Žabovřesky",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Žabovřesky",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Židenice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Židenice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Líšeň",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Líšeň",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Vinohrady",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Vinohrady",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Kohoutovice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Kohoutovice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Komín",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Komín",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Nový Lískovec",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Nový Lískovec",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Starý Lískovec",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Starý Lískovec",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Bohunice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Bohunice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Bosonohy",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Bosonohy",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Chrlice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Chrlice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Ivanovice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Ivanovice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Jehnice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Jehnice",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Jundrov",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Jundrov",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Kníničky",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Kníničky",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Maloměřice a Obřany",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Maloměřice a Obřany",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Medlánky",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Medlánky",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Ořešín",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Ořešín",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Řečkovice a Mokrá Hora",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Řečkovice a Mokrá Hora",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Slatina",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Slatina",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Tuřany",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Tuřany",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Útěchov",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Útěchov",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Žebětín",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Žebětín",
+      "seats": null
+    },
+    {
+      "id": "brno-mc-Brno-Černovice",
+      "city": "Brno",
+      "kind": "district",
+      "name": "Brno-Černovice",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice I",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice I",
+      "note": "Zelené a Bílé Předměstí",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice II",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice II",
+      "note": "Polabiny",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice III",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice III",
+      "note": "Studánka, Cihelna",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice IV",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice IV",
+      "note": "Pardubičky, Černá za Bory a okolí",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice V",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice V",
+      "note": "Nové Jesenčany a okolí",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice VI",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice VI",
+      "note": "Svítkov, Popkovice",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice VII",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice VII",
+      "note": "Ohrazenice",
+      "seats": null
+    },
+    {
+      "id": "pce-mo-Pardubice VIII",
+      "city": "Pardubice",
+      "kind": "district",
+      "name": "Pardubice VIII",
+      "note": "Hostovice a okolí",
+      "seats": null
+    }
+  ],
+  "lists": [
+    {
+      "id": "praha-spolu",
+      "bodyId": "praha",
+      "party": "SPOLU pro Prahu (ODS a TOP 09)",
+      "short": "SPOLU",
+      "leader": "Tomáš Portlík",
+      "leaderRole": "starosta Prahy 9, kandidát na primátora",
+      "results2022": {
+        "percent": 24.72,
+        "mandates": 19,
+        "predecessor": "SPOLU ODS+TOP 09+KDU-ČSL",
+        "detail": "Vítěz 2022. Lidovci letos odešli k Praze sobě. Primátor Svoboda už nekandiduje."
+      },
+      "topics": [
+        "Tým starostů městských částí",
+        "Doprava a výstavba",
+        "Kontinuita koalice 2023–2026"
+      ],
+      "promises": [
+        "Dokončit rozjeté dopravní stavby",
+        "Stabilní vedení města bez experimentů",
+        "Důraz na bezpečnost a údržbu"
+      ],
+      "summary": "Klasická pravicová koalice, tentokrát jen ODS a TOP 09. Vedou ji starostové, ne Svoboda. Slibují spíš dotahovat to, co už běží, než otáčet město naruby.",
+      "trackRecord": {
+        "positive": [
+          "Po 2022 vyhráli volby a sestavili koalici se STAN a Piráty.",
+          "Město udrželo rating a velké investiční akce (metro, okruh v přípravě)."
+        ],
+        "negative": [
+          "Koalice se skládala měsíce, image chaosu.",
+          "KDU-ČSL ze značky SPOLU v Praze odešli — značka je užší než v roce 2022."
+        ]
+      },
+      "controversies": [
+        "Dlouhé sestavování rady 2022/23",
+        "Spor o podobu rozvoje a o to, kdo „vládne“ mezi magistrátem a městskými částmi"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Složení rady a primátora",
+          "Velké dopravní stavby v gesci Prahy"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "ČSÚ 2022",
+        "iDNES 6/2026 — Portlík a kandidátka",
+        "Wikipedie ZHMP 2026"
+      ]
+    },
+    {
+      "id": "praha-ano",
+      "bodyId": "praha",
+      "party": "ANO 2011",
+      "short": "ANO",
+      "leader": "Jan Hušbauer",
+      "leaderRole": "zastupitel Prahy 4, kandidát na primátora",
+      "results2022": {
+        "percent": 19.34,
+        "mandates": 14,
+        "detail": "Druzí v roce 2022, v opozici. Původní lídr 2026 Ondřej Prokop odstoupil kvůli bytům."
+      },
+      "topics": [
+        "Doprava bez restrikcí",
+        "Dostupnější bydlení v rétorice hnutí",
+        "Kritika stávající koalice"
+      ],
+      "promises": [
+        "Méně zákazů v centru",
+        "Tlak na rychlejší výstavbu",
+        "Úspory a „zdravý selský rozum“"
+      ],
+      "summary": "Hnutí, které v Praze bývá silné v okrajových částech. Letos mění lídra za pochodu: Prokop po kauze bytů skončil, místo něj Hušbauer. Chtějí porazit současnou koalici.",
+      "trackRecord": {
+        "positive": [
+          "Stabilně druhá síla magistrátu 2022.",
+          "Silné zastoupení v některých MČ."
+        ],
+        "negative": [
+          "V Praze 2022–26 v opozici, málo konkrétních magistrátních stop.",
+          "Výměna lídra těsně před volbami."
+        ]
+      },
+      "controversies": [
+        "Ondřej Prokop a nevyjasněné byty (6/2026), konec v politice",
+        "Celostátní spory ANO o brněnské zastupitele 2025 (jinde, ale medially silné)"
+      ],
+      "sources": [
+        "ČSÚ 2022",
+        "Seznam Zprávy 6/2026 a 8/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-pirati",
+      "bodyId": "praha",
+      "party": "Česká pirátská strana",
+      "short": "Piráti",
+      "leader": "Tereza Nislerová",
+      "leaderRole": "ekonomka, zastupitelka Prahy 4",
+      "results2022": {
+        "percent": 17.73,
+        "mandates": 13,
+        "detail": "Třetí místo. V koalici se SPOLU a STAN od 2023. Hřib odešel do Sněmovny."
+      },
+      "topics": [
+        "Transparentnost",
+        "Městská data a služby",
+        "Doprava a klima v pirátském balení"
+      ],
+      "promises": [
+        "Pokračovat v digitalizaci",
+        "Hlídání veřejných zakázek",
+        "Město přívětivé k MHD a cyklistice"
+      ],
+      "summary": "Po Hřibovi vedou magistrátní kampaň s novou tváří. Pořád jsou součástí vládnoucí koalice, ale část lidí (Komrsková) odešla k JSME PRAHA. Voliči uvidí, jestli značka Piráti v Praze ještě táhne.",
+      "trackRecord": {
+        "positive": [
+          "Dlouhodobě silní v Praze, digitalizace a otevřená data.",
+          "Podíl na koalici 2023–26."
+        ],
+        "negative": [
+          "Odchody známých tváří.",
+          "Mediální tření kvůli lídryni a práci v Orlen Unipetrol."
+        ]
+      },
+      "controversies": [
+        "CNN Prima: Nislerová a Orlen — střet image vs. ropná firma",
+        "Odchod náměstkyně Komrskové k jiné kandidátce"
+      ],
+      "sources": [
+        "ČSÚ 2022",
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-sobě",
+      "bodyId": "praha",
+      "party": "PRAHA SOBĚ, KDU-ČSL a Strana zelených",
+      "short": "Praha sobě+",
+      "leader": "Adam Scheinherr",
+      "leaderRole": "předseda Prahy sobě, exnáměstek pro dopravu",
+      "results2022": {
+        "percent": 14.73,
+        "mandates": 11,
+        "predecessor": "Praha sobě samostatně",
+        "detail": "Čtvrtí. V opozici po rozpadu aliance s Piráty. Letos spojenectví s lidovci a zelenými. Čižinský je na 3. místě."
+      },
+      "topics": [
+        "Doprava (tramvaje, lávky, zklidnění)",
+        "Bydlení",
+        "Přímá volba primátora",
+        "Zeleň a klima"
+      ],
+      "promises": [
+        "Pro Prahu první poslední",
+        "Pokračovat v dopravních stavbách, které Scheinherr táhl",
+        "Víc pravomocí lidem — debata o přímé volbě primátora"
+      ],
+      "summary": "Místní značka Jana Čižinského teď vede Scheinherr a rozšířila se o lidovce a zelené. Je to spíš „městská levý střed + katolíci + eko“ než čistá Praha sobě z roku 2018/22.",
+      "trackRecord": {
+        "positive": [
+          "Scheinherr jako náměstek dopravy: viditelné stavby a komunikace k MHD.",
+          "Praha sobě má silné kořeny v Praze 7 a komunitní politice."
+        ],
+        "negative": [
+          "Po 2022 nedohodli vládnutí s Piráty, skončili v opozici.",
+          "Značka se ředí koalicí tří subjektů."
+        ]
+      },
+      "controversies": [
+        "Rozpad „aliance stability“ s Piráty 2023",
+        "Debata, zda přímá volba primátora patří do komunálu (ústava)"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Konkrétní dopravní stavby v gesci Prahy"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem",
+          "Změna ústavy kvůli přímé volbě primátora — to Praha sama neudělá"
+        ]
+      },
+      "sources": [
+        "ČSÚ 2022",
+        "iDNES 6/2026",
+        "Seznam Zprávy k přímé volbě"
+      ]
+    },
+    {
+      "id": "praha-stan",
+      "bodyId": "praha",
+      "party": "STAROSTOVÉ A NEZÁVISLÍ",
+      "short": "STAN",
+      "leader": "Petr Hlaváček",
+      "leaderRole": "náměstek primátora pro územní rozvoj, architekt",
+      "results2022": {
+        "percent": 7.77,
+        "mandates": 5,
+        "detail": "V koalici od 2023. Stejný lídr jako minule."
+      },
+      "topics": [
+        "Územní plán",
+        "Architektura a rozvoj",
+        "Městské části"
+      ],
+      "promises": [
+        "Klidnější a předvídatelnější výstavba",
+        "Kvalita veřejného prostoru",
+        "Spolupráce s MČ"
+      ],
+      "summary": "Malý, ale vládnoucí klub. Hlaváček je tvář územního rozvoje — kdo chce vědět, kam Praha poroste, má ho na radaru. Kdo čeká protestní opozici, tohle není.",
+      "trackRecord": {
+        "positive": [
+          "Gesce územního rozvoje v radě.",
+          "Kontinuita lídra."
+        ],
+        "negative": [
+          "Jen 5 mandátů — malý vliv bez partnerů.",
+          "Rozvojové spory (výškové stavby, brownfieldy) se lepí na něj."
+        ]
+      },
+      "controversies": [
+        "Spory o územní plán a velké developmenty"
+      ],
+      "sources": [
+        "ČSÚ 2022",
+        "Seznam Zprávy 3/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-spd",
+      "bodyId": "praha",
+      "party": "SPD pro Prahu s podporou Trikolory, PRO, Přísahy a NK",
+      "short": "SPD+",
+      "leader": "Milan Urban",
+      "leaderRole": "architekt, předseda klubu SPD v ZHMP",
+      "results2022": {
+        "percent": 5.17,
+        "mandates": 3,
+        "predecessor": "SPD + Trikolora + PES",
+        "detail": "Těsně přes práh. Letos širší spojenectví s PRO a Přísahou."
+      },
+      "topics": [
+        "Migrace a bezpečnost (celostátní agenda v komunálu)",
+        "Kritika Green Deal ve městě",
+        "Nízké výdaje"
+      ],
+      "promises": [
+        "Méně „ideologie“ v MHD a školách",
+        "Důraz na bezpečnost",
+        "Skeptický postoj k klimatickým restrikcím"
+      ],
+      "summary": "Protistystémový blok na magistrátu. Hodně mluví o věcech, které Praha sama nenařídí (imigrace, EU). V zastupitelstvu jsou od 2022 tři.",
+      "trackRecord": {
+        "positive": [
+          "Udrželi se v zastupitelstvu 2022."
+        ],
+        "negative": [
+          "Minimální vliv na radu.",
+          "Program často sklouzává k celostátním tématům."
+        ]
+      },
+      "controversies": [
+        "Celostátní kauzy SPD a Okamury se přenášejí i na městskou značku"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)",
+          "Azylovou a migrační politiku státu SPD v Praze nezmění"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "ČSÚ 2022",
+        "Seznam Zprávy 2/2026"
+      ]
+    },
+    {
+      "id": "praha-jsme",
+      "bodyId": "praha",
+      "party": "JSME PRAHA",
+      "short": "JSME PRAHA",
+      "leader": "Jana Komrsková",
+      "leaderRole": "náměstkyně primátora, dříve Piráti",
+      "results2022": {
+        "note": "Nové uskupení (TEAM / Volt a odchozí z Pirátů). V roce 2022 jako celek nekandidovali."
+      },
+      "topics": [
+        "Odchod od Pirátů",
+        "Vedení města zevnitř",
+        "Volt a „jsme team“"
+      ],
+      "promises": [
+        "Jiná kultura koalice než u mateřských Pirátů",
+        "Pragmatické řízení"
+      ],
+      "summary": "Nová značka kolem náměstkyně, která odešla od Pirátů. Část voličů to čte jako rozkol, část jako osobní projekt. Stopa 2022 nemají — jsou ve hře kvůli aktuální radě.",
+      "trackRecord": {
+        "positive": [
+          "Komrsková už teď sedí v radě a zná úřad."
+        ],
+        "negative": [
+          "Nulový výsledek pod touto značkou.",
+          "Odchody z Pirátů tříští progresivní voliče."
+        ]
+      },
+      "controversies": [
+        "Odchod z Pirátů po kauze/konopí Veverky a dalších třeních (2026)"
+      ],
+      "sources": [
+        "Wikipedie ZHMP 2026",
+        "Novinky 6/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-auto",
+      "bodyId": "praha",
+      "party": "Motoristé sobě",
+      "short": "AUTO",
+      "leader": "Klára Sovová",
+      "leaderRole": "podnikatelka, Luční a Labská bouda",
+      "results2022": {
+        "note": "V ZHMP 2022 nekandidovali / bez mandátu. Celostátně posílili až 2025."
+      },
+      "topics": [
+        "Auta a zklidňování restrikcí",
+        "Parkování",
+        "Odpor k „válce proti autům“"
+      ],
+      "promises": [
+        "Víc respektu k řidičům",
+        "Méně zón a zákazů",
+        "Pragmatická doprava"
+      ],
+      "summary": "Nová celostátní značka v Praze. Lídryně je z Krkonoš, ne z magistrátní kuchyňky — to je buď svěží vzduch, nebo slabá znalost města. Program se točí kolem aut.",
+      "trackRecord": {
+        "positive": [
+          "Silná celostátní vlna Motoristů po sněmovních volbách 2025."
+        ],
+        "negative": [
+          "Žádná magistrátní stopa 2022–26.",
+          "Lídryně mimo pražskou komunální praktiku."
+        ]
+      },
+      "controversies": [
+        "Sovová dříve ODS; otázky, co je lokální a co marketing značky"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Parkovací politika a organizace dopravy v Praze"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)",
+          "Dálniční síť a spotřební daň z paliv"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Seznam Zprávy 6/2026",
+        "iDNES"
+      ]
+    },
+    {
+      "id": "praha-sen",
+      "bodyId": "praha",
+      "party": "SEN PRO PRAHU s Václavem Láskou (SEN 21, HPP 11, Mourek)",
+      "short": "SEN pro Prahu",
+      "leader": "Václav Láska",
+      "leaderRole": "senátor, obvod Praha 5",
+      "results2022": {
+        "note": "Nová magistrátní kandidátka. Láska obhajuje senát v obvodu 21."
+      },
+      "topics": [
+        "Senátní zkušenost",
+        "Městské části (HPP 11)",
+        "Liberální střed"
+      ],
+      "promises": [
+        "Most mezi Senátem a magistrátem",
+        "Transparentnost",
+        "Podpora lokálních značek"
+      ],
+      "summary": "Senátor skládá vlastní městskou listinu. Výhoda: jméno. Nevýhoda: SEN 21 nikdy Praha jako celek neřídila. Zároveň kandiduje do Senátu — dvojí kampaň.",
+      "trackRecord": {
+        "positive": [
+          "Láska je známý senátor, SEN 21 má stopu v horní komoře."
+        ],
+        "negative": [
+          "Na magistrátu bez klubu 2022."
+        ]
+      },
+      "controversies": [
+        "Souběh senátní obhajoby a magistrátní jedničky"
+      ],
+      "sources": [
+        "neovlivni.cz",
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-levice",
+      "bodyId": "praha",
+      "party": "Levice",
+      "short": "Levice",
+      "leader": "Pavel Čižinský",
+      "leaderRole": "advokát (současně senát Praha 1)",
+      "results2022": {
+        "note": "Na ZHMP 2022 jako Levice bez mandátu / mimo hlavní šestku."
+      },
+      "topics": [
+        "Dostupné bydlení",
+        "Sociální politika města",
+        "Kritika developmentu"
+      ],
+      "promises": [
+        "Víc městských bytů",
+        "Regulace Airbnb v kompetenci města",
+        "Služby, ne spekulace"
+      ],
+      "summary": "Levicová alternativa k Praze sobě. Pavel Čižinský je jiné křídlo rodiny než Jan na Praze sobě. Současně běží do Senátu na Praze 1.",
+      "trackRecord": {
+        "positive": [
+          "Dlouhodobá advokační práce k bydlení a cizineckému právu."
+        ],
+        "negative": [
+          "Na magistrátu bez reálné většiny."
+        ]
+      },
+      "controversies": [
+        "Souběh senátní a komunální kandidatury",
+        "Štípení „čizínkovského“ elektorátu"
+      ],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-sleva",
+      "bodyId": "praha",
+      "party": "Spojená levice pro Prahu (KSČM, ČSSD, KSČ)",
+      "short": "Spojená levice",
+      "leader": "Petr Vlček",
+      "results2022": {
+        "note": "KSČM ani ČSSD v ZHMP 2022 samostatně nepřekročily práh do rady; bez mandátu v hlavní šestce."
+      },
+      "topics": [
+        "Sociální jistota",
+        "Městské služby",
+        "Kritika privatizace"
+      ],
+      "promises": [
+        "Levnější MHD v slibech",
+        "Obecní bydlení",
+        "Odpor k „pravicové“ koalici"
+      ],
+      "summary": "Stará levice pod jednou střechou. V Praze 2022 se do ZHMP nedostali — letos zkoušejí součet značek. Elektorát je starší, program klasicky sociální.",
+      "trackRecord": {
+        "positive": [
+          "Historická stopa KSČM v některých MČ."
+        ],
+        "negative": [
+          "Dlouhodobý úpadek na magistrátní úrovni."
+        ]
+      },
+      "controversies": [
+        "Nostalgie po KSČ / značka KSČ v názvu koalice je pro část voličů stopka"
+      ],
+      "sources": [
+        "ČTK / Pražský deník 8/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-patrioti",
+      "bodyId": "praha",
+      "party": "PATRIOTI PRO PRAHU",
+      "short": "Patrioti",
+      "leader": "Jiří Vítek",
+      "results2022": {
+        "note": "Mimo zastupitelstvo 2022."
+      },
+      "topics": [
+        "Národní agenda v Praze",
+        "Bezpečnost",
+        "Kritika migrace a EU"
+      ],
+      "promises": [
+        "Praha „česká“ v kultuře a symbolice",
+        "Tvrdší postoj k nelegálnímu jednání ve veřejném prostoru"
+      ],
+      "summary": "Národně laděná listina mimo SPD. Na magistrátu zatím bez mandátu. Hodně celostátních hesel, málo pák v Kompetenčním zákoně obce.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez mandátu 2022, neznámá výkonnost v radě."
+        ]
+      },
+      "controversies": [
+        "Překryv s SPD a dalšími protestními značkami — tříštění hlasů"
+      ],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-gen",
+      "bodyId": "praha",
+      "party": "GEN s podporou veřejnosti",
+      "short": "GEN",
+      "leader": "Roman Mejstřík",
+      "results2022": {
+        "note": "Bez mandátu v ZHMP 2022."
+      },
+      "topics": [
+        "Generační politika",
+        "Kritika stávajících stran"
+      ],
+      "promises": [
+        "Obměna personálií",
+        "Jiné priority než velká šestka"
+      ],
+      "summary": "Menší strana s plnou 65člennou listinou. Pro voliče nespokojené s velkými značkami, ale bez dokázané magistrátní síly.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez vlivu 2022–26."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-nasse",
+      "bodyId": "praha",
+      "party": "Naše Praha SNK ED",
+      "short": "SNK ED",
+      "leader": "Jiří Benýšek",
+      "results2022": {
+        "note": "Bez mandátu v ZHMP 2022."
+      },
+      "topics": [
+        "Evropští demokraté",
+        "Lokální Praha"
+      ],
+      "promises": [
+        "Konzervativně-liberální správa",
+        "Méně ideologie"
+      ],
+      "summary": "Zbytek značky SNK Evropští demokraté. V Praze 2022 mimo hru o radu. 41 kandidátů, ne plná 65.",
+      "trackRecord": {
+        "positive": [
+          "Historie SNK ED v 00. letech."
+        ],
+        "negative": [
+          "Dlouho mimo magistrát."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Wikipedie ZHMP 2026",
+        "iDNES 9/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-svobodni",
+      "bodyId": "praha",
+      "party": "Svobodní",
+      "short": "Svobodní",
+      "leader": "Bedřich Laube",
+      "leaderRole": "zároveň senát Praha 9 za širší pravicovou koalici",
+      "results2022": {
+        "note": "Bez mandátu ZHMP 2022."
+      },
+      "topics": [
+        "Nízké daně a poplatky města",
+        "Méně regulace",
+        "Auta a podnikání"
+      ],
+      "promises": [
+        "Škrtat výdaje",
+        "Bránit restrikcím v dopravě",
+        "Svoboda podnikání"
+      ],
+      "summary": "Libertariánská klasika. Laube je i na senátní kandidátce. Magistrát umí ovlivnit poplatky a regulace, ne státní daně — to v lustraci padá do „nerozhodují“.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez mandátu na magistrátu."
+        ]
+      },
+      "controversies": [],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)",
+          "Sazby DPH a daně z příjmu Svobodní v Praze nezmění"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ]
+    },
+    {
+      "id": "praha-rezidenti",
+      "bodyId": "praha",
+      "party": "REZIDENTI – REBELOVÉ pro změnu Prahy",
+      "short": "Rebelové",
+      "leader": "Martin Motl",
+      "results2022": {
+        "note": "Nové / okrajové sdružení (Rebelové, NSS, NK)."
+      },
+      "topics": [
+        "Změna Prahy",
+        "Rezidentská agenda"
+      ],
+      "promises": [
+        "Hlas „běžných Pražanů“ proti etablovaným stranám"
+      ],
+      "summary": "Protestní sdružení s plnou listinou. Bez stopy v radě. Program je spíš značka vzdoru než správa města.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez mandátu, nejasná vyjednávací síla."
+        ]
+      },
+      "controversies": [
+        "Složení s NSS a Rebelů — ověřit konkrétní personálie"
+      ],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-dsz",
+      "bodyId": "praha",
+      "party": "DSZ – Za práva zvířat a NK",
+      "short": "DSZ",
+      "leader": "Hana Janišová",
+      "results2022": {
+        "note": "Okrajová listina, 9 kandidátů."
+      },
+      "topics": [
+        "Práva zvířat",
+        "Útulky",
+        "Městské vyhlášky k chovu"
+      ],
+      "promises": [
+        "Lepší útulky a vyhlášky",
+        "Téma zvířat ve městě"
+      ],
+      "summary": "Jednoúčelová listina. Město opravdu zřizuje útulky a může vyhláškou něco ovlivnit. Velkou politiku Prahy neotočí.",
+      "trackRecord": {
+        "positive": [
+          "Jasné téma."
+        ],
+        "negative": [
+          "Úzký záběr, málo kandidátů."
+        ]
+      },
+      "controversies": [],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Městské útulky, vyhlášky k volnému pobíhání, veřejná zeleň"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ]
+    },
+    {
+      "id": "praha-voluntia",
+      "bodyId": "praha",
+      "party": "Libertariánská strana Voluntia",
+      "short": "Voluntia",
+      "leader": "Tadeáš Janků",
+      "results2022": {
+        "note": "15 kandidátů, bez mandátu 2022."
+      },
+      "topics": [
+        "Minimalismus státu/města",
+        "Dobrovolnost"
+      ],
+      "promises": [
+        "Méně nařizování",
+        "Odmítání politických funkcí v duchu libertariánství (částečně)"
+      ],
+      "summary": "Ještě tvrdší libertariánství než Svobodní. 15 jmen. Spíš signál než správa 65členného zastupitelstva.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez vlivu."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-lepsi-zivot",
+      "bodyId": "praha",
+      "party": "LEPŠÍ ŽIVOT PRO LIDI",
+      "short": "Lepší život",
+      "leader": "Pavel Opl",
+      "results2022": {
+        "note": "10 kandidátů. Program v názvu: daně, mzdy, důchody, energie — vesměs státní agenda."
+      },
+      "topics": [
+        "Mzdy a důchody",
+        "Ceny energií",
+        "Daň z nemovitostí"
+      ],
+      "promises": [
+        "Min. mzda 50 tis., důchod 30 tis., ceny energií 2019 — jak je v názvu listiny"
+      ],
+      "summary": "Název slibuje věci, které zastupitelstvo Prahy neschvaluje. Daň z nemovitostí částečně ano (koeficienty), mzdy a důchody ne. Typický případ na lustraci.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez mandátu, program mimo kompetenci."
+        ]
+      },
+      "controversies": [],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Koeficient daně z nemovitých věcí v Praze"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)",
+          "Minimální mzda, státní důchody, cenová regulace energií celostátně",
+          "Válka a mír"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Wikipedie ZHMP 2026 — plný název listiny"
+      ]
+    },
+    {
+      "id": "praha-mimozemstane",
+      "bodyId": "praha",
+      "party": "ANO LEPŠÍ ČESKO S MIMOZEMŠŤANY",
+      "short": "Mimozemšťané",
+      "leader": "Jiří Dubský",
+      "results2022": {
+        "note": "Recesistická / protestní listina, 3 kandidáti. Neplést s ANO 2011."
+      },
+      "topics": [
+        "Protest / recese"
+      ],
+      "promises": [
+        "Není relevatní program města v běžném smyslu"
+      ],
+      "summary": "Tři jména, recese v názvu. Nejsou to Babišovo ANO. Pro databázi proto, aby se to nepletlo na lístku.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez správní relevance."
+        ]
+      },
+      "controversies": [
+        "Zmatení značky ANO"
+      ],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-asocialove",
+      "bodyId": "praha",
+      "party": "Česká strana asociálů",
+      "short": "ČSA",
+      "leader": "Lia Nova",
+      "results2022": {
+        "note": "Recese, 3 kandidáti."
+      },
+      "topics": [
+        "Satira"
+      ],
+      "promises": [],
+      "summary": "Satirická minilistina. Do rady města se nehraje.",
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      },
+      "controversies": [],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-urza",
+      "bodyId": "praha",
+      "party": "Urza.cz",
+      "short": "Urza",
+      "leader": "Martin Urza",
+      "results2022": {
+        "note": "1 kandidát. Program: nechtějí funkce."
+      },
+      "topics": [
+        "Anarchokapitalismus",
+        "Odmítnutí politické moci"
+      ],
+      "promises": [
+        "Odmítnou každou politickou funkci — dle názvu listiny"
+      ],
+      "summary": "Kandidují s tím, že vládnout nechtějí. To je férově řečeno v názvu. Pro lustraci: kdyby náhodou, pořád by magistrát funkce měl — oni je prý vezmou.",
+      "trackRecord": {
+        "positive": [
+          "Otevřenost ohledně cíle."
+        ],
+        "negative": [
+          "Nekompatibilní se správou města."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "praha-litacka",
+      "bodyId": "praha",
+      "party": "VELKÝ KŘÍŽEK PRO LÍTAČKU ZA KAČKU – SOUSEDÉ PRO PRAHU",
+      "short": "Lítačka za kačku",
+      "leader": "Hugo Štolba",
+      "results2022": {
+        "note": "4 kandidáti. Jedno téma: jízdné."
+      },
+      "topics": [
+        "Jízdné MHD",
+        "Lítačka"
+      ],
+      "promises": [
+        "Symbolicky: lítačka za korunu"
+      ],
+      "summary": "Jedno téma, které Praha teoreticky ovlivní (tarify PID v rámci dohod). Se čtyřmi jmény ale koalici nesloží.",
+      "trackRecord": {
+        "positive": [
+          "Téma v kompetenci města/PID."
+        ],
+        "negative": [
+          "Minilistina."
+        ]
+      },
+      "controversies": [],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Tarify MHD v Praze (spolu s PID a Středočeským krajem)"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ]
+    },
+    {
+      "id": "praha-cibulka",
+      "bodyId": "praha",
+      "party": "Volte Pravý Blok (Petr Cibulka)",
+      "short": "Pravý Blok",
+      "leader": "Petr Cibulka",
+      "results2022": {
+        "note": "14 kandidátů. Trvalá protestní značka."
+      },
+      "topics": [
+        "Přímá demokracie",
+        "Odvolatelnost politiků",
+        "Protikorupční narrativa"
+      ],
+      "promises": [
+        "Referenda",
+        "Odvolatelnost"
+      ],
+      "summary": "Dlouholetá cibulkovská listina s programem v názvu. Komunál referenda částečně umí (místní), odvolatelnost poslanců ne.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez mandátu, program mix obce a ústavy."
+        ]
+      },
+      "controversies": [
+        "Konspirační a ostrá rétorika značky"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Místní referendum"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)",
+          "Odvolatelnost poslanců a státních úředníků přímo občany — ústava"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Wikipedie ZHMP 2026"
+      ]
+    },
+    {
+      "id": "brno-ano",
+      "bodyId": "brno",
+      "party": "ANO 2011",
+      "short": "ANO",
+      "leader": "Václav Trojan",
+      "leaderRole": "poslanec, místostarosta Brno-Židenice, pěstírna konopí v povolání na listině",
+      "results2022": {
+        "mandates": 13,
+        "detail": "13 zastupitelů. Vedení hnutí 2025 nařídilo odchod z koalice; většina neuposlechla a byla vyloučena. Ti teď kandidují jako Brnoklidem."
+      },
+      "topics": [
+        "Nová tvář po rozkolu",
+        "Kritika ODS/Vaňkové éry",
+        "Zdravotnictví (Ludka na 2. místě)"
+      ],
+      "promises": [
+        "Jiné Brno než koalice 2022–26",
+        "Pořádek a investice v rétorice ANO"
+      ],
+      "summary": "Oficiální ANO v Brně je po čistce jiné než klub, který seděl v koalici. Lídr Trojan je poslanec a židenický místostarosta. Část voličů může plést ANO a Brnoklidem.",
+      "trackRecord": {
+        "positive": [
+          "V roce 2022 silný výsledek (13 mandátů)."
+        ],
+        "negative": [
+          "Rozkol 2025: značka vs. lidé, co reálně vládli.",
+          "Mediální obraz pěstírny konopí u lídra."
+        ]
+      },
+      "controversies": [
+        "Vyloučení brněnských zastupitelů ANO (2025)",
+        "Trojan a konopná pěstírna (Novinky 6/2026)"
+      ],
+      "sources": [
+        "Wikipedie ZMB 2026",
+        "Seznam Zprávy",
+        "Novinky"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-ods",
+      "bodyId": "brno",
+      "party": "ODS, TOP 09 a nezávislí",
+      "short": "SPOLEČNĚ",
+      "leader": "Kamila Zlatušková",
+      "leaderRole": "televizní producentka, nestranička; Vaňková nekandiduje ze zdraví",
+      "results2022": {
+        "predecessor": "SPOLEČNĚ ODS+TOP 09",
+        "detail": "Jádro koalice 2022–26. Primátorka Vaňková končí."
+      },
+      "topics": [
+        "Kontinuita správy",
+        "Nová tvář místo Vaňkové",
+        "Starostové MČ na listině"
+      ],
+      "promises": [
+        "Dotáhnout projekty",
+        "Stabilita po éře Vaňkové",
+        "Kultura a značka města (Zlatušková z televize)"
+      ],
+      "summary": "Vládnoucí pravice s novou lídryní mimo stranický aparát. Buď to omladí značku, nebo to voliči přečtou jako marketing. Na listině jsou Aberl, Pazderová, Mencl — úřad znají.",
+      "trackRecord": {
+        "positive": [
+          "Vedli město většinu období.",
+          "Síť starostů MČ."
+        ],
+        "negative": [
+          "Únava z dlouhého vládnutí.",
+          "Odchod ANO z koalice (fakticky rozpolcené).",
+          "Zdravotní konec Vaňkové mění kampaň."
+        ]
+      },
+      "controversies": [
+        "Piráti si rýpli do nominace Zlatuškové",
+        "Rozpad původně široké koalice"
+      ],
+      "sources": [
+        "Wikipedie ZMB 2026",
+        "TOP 09 5/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-kdu",
+      "bodyId": "brno",
+      "party": "Lidovci a Starostové – Brno blíž lidem (KDU-ČSL a STAN)",
+      "short": "KDU+STAN",
+      "leader": "Jakub Hruška",
+      "leaderRole": "starosta Brno-Kohoutovice",
+      "results2022": {
+        "detail": "Koalice KDU+STAN byla ve vedení města. Hladík (exministr) je na listině, jedničkou je Hruška."
+      },
+      "topics": [
+        "Školství (Matonohová)",
+        "MČ a starostové",
+        "Klidnější vedení"
+      ],
+      "promises": [
+        "Přívětivější úřad",
+        "Školy a služby",
+        "Pokračování spolupráce lidovců a STAN"
+      ],
+      "summary": "Druhý pilíř končící koalice. Místo velkých ideologií starostenské řemeslo. Hladík je zátěž i bonus podle toho, kdo si pamatuje ministerstvo životního prostředí.",
+      "trackRecord": {
+        "positive": [
+          "Účast v radě, gesce školství.",
+          "Síť MČ (Kohoutovice, Medlánky, Tuřany)."
+        ],
+        "negative": [
+          "Hladík — celostátní kauzy a mediální obraz z ministerstva."
+        ]
+      },
+      "controversies": [
+        "Petr Hladík a kauzy MŽP v celostátních médiích"
+      ],
+      "sources": [
+        "Novinky 11/2025",
+        "Metro 4/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-tu",
+      "bodyId": "brno",
+      "party": "Piráti a Fakt Brno TU! (Piráti, Fakt Brno, Idealisté, GEN)",
+      "short": "TU!",
+      "leader": "Adam Zemek",
+      "leaderRole": "zastupitel, programátor",
+      "results2022": {
+        "predecessor": "Piráti",
+        "detail": "Piráti měli jít do koalice 2022, na poslední chvíli nešli. Teď širší TU!"
+      },
+      "topics": [
+        "Opozice k ODS",
+        "Město krátkých vzdáleností",
+        "Transparentnost"
+      ],
+      "promises": [
+        "Cíl kolem 20 % (kampaň)",
+        "Jiné priority než Zlatušková/ODS",
+        "Fakt Brno a architektura (Bidlová)"
+      ],
+      "summary": "Piráti plus místní Fakt Brno. Po odmítnutí koalice 2022 jsou čtyři roky mimo radu — buď trest, nebo čistota. Zemek je méně známý než kdysi Hřib v Praze.",
+      "trackRecord": {
+        "positive": [
+          "Opoziční dohled 2022–26.",
+          "Spojení s Fakt Brno (městská značka)."
+        ],
+        "negative": [
+          "Nešli do koalice, vliv na výkon byl menší."
+        ]
+      },
+      "controversies": [
+        "Vztah k ODS a nominaci Zlatuškové (Deník N 4/2026)"
+      ],
+      "sources": [
+        "Wikipedie ZMB 2026",
+        "Deník N"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-zeleni",
+      "bodyId": "brno",
+      "party": "ZELENÉ BRNO (Zelení, Žít Brno, SEN 21, LES, Volt, Budoucnost, Kruh)",
+      "short": "Zelené Brno",
+      "leader": "Natálie Vencovská",
+      "leaderRole": "designérka, veřejný prostor; s Drápalovou a Fuchsovou v čele",
+      "results2022": {
+        "predecessor": "Zelení (+ Žít Brno historicky)",
+        "detail": "Letos široká eko-liberální střecha."
+      },
+      "topics": [
+        "Veřejný prostor",
+        "Klima",
+        "Žít Brno tradice",
+        "Komunitní politika"
+      ],
+      "promises": [
+        "Město pro lidi, ne jen auta",
+        "Kvalita ulic",
+        "Spolupráce malých značek"
+      ],
+      "summary": "Široká zelená duha. Drápalová (Nový Lískovec) dodává starostenskou důvěryhodnost, Vencovská novost. Riziko: moc log na jedné listině.",
+      "trackRecord": {
+        "positive": [
+          "Jana Drápalová — dlouhá starostenská stopa.",
+          "Žít Brno kdysi změnilo brněnskou politiku."
+        ],
+        "negative": [
+          "Roztříštěnost malých partnerů."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Zelení Brno 3/2026",
+        "Novinky 6/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-klidem",
+      "bodyId": "brno",
+      "party": "Brnoklidem",
+      "short": "Brnoklidem",
+      "leader": "Karin Podivinská",
+      "leaderRole": "náměstkyně primátorky, dříve ANO; s ní Šimek a Landa",
+      "results2022": {
+        "note": "Značka nová. Jádro = vyloučení zastupitelé ANO, kteří zůstali v koalici. Výsledek 2022 se počítá pod ANO."
+      },
+      "topics": [
+        "Klid, ne stranický bič z Prahy",
+        "Kontinuita rady",
+        "Místní ANO bez Babiše"
+      ],
+      "promises": [
+        "Vládnout dál bez příkazů z hnutí",
+        "Zkušenost z úřadu"
+      ],
+      "summary": "Nejsledovanější brněnský rozkol. Lidé, co město fakt táhli za ANO, teď kandidují proti oficiálnímu ANO. Volič ANO musí vybrat značku, nebo tváře.",
+      "trackRecord": {
+        "positive": [
+          "Reálná výkonná stopa v radě 2022–26.",
+          "Šimek (exhejtman) jako známé jméno."
+        ],
+        "negative": [
+          "Rozbitý vztah s mateřským hnutím.",
+          "Otázka loajality a slibů z roku 2022."
+        ]
+      },
+      "controversies": [
+        "Vyloučení z ANO 2025",
+        "Seznam Zprávy 8/2026: kampaň i „u záchodů“ / psi na kandidátce jako recese"
+      ],
+      "sources": [
+        "Novinky 4/2026",
+        "Seznam Zprávy 8/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-luzanky",
+      "bodyId": "brno",
+      "party": "Za Lužánky",
+      "short": "Za Lužánky",
+      "leader": "Jana Tichá Janulíková",
+      "leaderRole": "ředitelka TIC Brno",
+      "results2022": {
+        "note": "Nové hnutí kolem stadionu Za Lužánkami a fanoušků Zbrojovky."
+      },
+      "topics": [
+        "Stadion Za Lužánkami",
+        "Sport",
+        "Fanouškovská politika"
+      ],
+      "promises": [
+        "Protlačit stadion politicky",
+        "Téma sportovišť"
+      ],
+      "summary": "Jedno velké téma, které město opravdu řeší (pozemky, peníze, územní plán). Riziko: hnutí ze stadionu a stín Slušných lidí u jednoho ze zakladatelů.",
+      "trackRecord": {
+        "positive": [
+          "Jasné, místní téma.",
+          "Janulíková zná městskou prezentaci (TIC)."
+        ],
+        "negative": [
+          "Úzký program.",
+          "Richard Novák a minulost u Slušných lidí — medializace."
+        ]
+      },
+      "controversies": [
+        "Kontakt se zrušeným hnutím Slušní lidé u zakladatele",
+        "Byznys stadionu (Metrostav aj.)"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Městské pozemky, sportovní investice, územní plán u Lužánek"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "iDNES",
+        "Novinky 4/2026"
+      ]
+    },
+    {
+      "id": "brno-auto",
+      "bodyId": "brno",
+      "party": "Motoristé sobě",
+      "short": "AUTO",
+      "leader": "Tomáš Kratochvíl",
+      "leaderRole": "starosta Brno-Bystrc, dříve SOCDEM, 2025 nestraník za AUTO",
+      "results2022": {
+        "note": "Nová značka. Kratochvíl má starostenskou stopu v Bystrci."
+      },
+      "topics": [
+        "Auta",
+        "Bystrc a okraje",
+        "Odpor k restrikcím"
+      ],
+      "promises": [
+        "Méně šikany řidičů",
+        "Hlas městských částí na okraji"
+      ],
+      "summary": "Motoristé s reálným starostou, ne jen celostátním billboardem. To je v Brně silnější než Sovová v Praze. Program pořád úzký.",
+      "trackRecord": {
+        "positive": [
+          "Kratochvíl — Bystrc."
+        ],
+        "negative": [
+          "Přestup SOCDEM → AUTO, otázka věrnosti programu."
+        ]
+      },
+      "controversies": [
+        "Odchod ze SOCDEM a kandidatura 2025 za AUTO"
+      ],
+      "sources": [
+        "Seznam Zprávy 3/2026",
+        "Wikipedie ZMB 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-restart",
+      "bodyId": "brno",
+      "party": "Restart pro Brno (KSČM, Stačilo!, ČSSD, DOMOV, Směr)",
+      "short": "Restart",
+      "leader": "Martin Říha",
+      "leaderRole": "krajský zastupitel, KSČM",
+      "results2022": {
+        "predecessor": "KSČM a další levicové listiny zvlášť",
+        "detail": "Letos jeden blok."
+      },
+      "topics": [
+        "Levicový protest",
+        "Sociální témata",
+        "Stačilo!"
+      ],
+      "promises": [
+        "Restart města doleva",
+        "Kritika pravicové koalice"
+      ],
+      "summary": "Spočet kdysi zvlášť slabých listin. Říha je krajský, ne městská jednička s úřadem. Pro lustraci: hodně celostátního Stačilo v komunálu.",
+      "trackRecord": {
+        "positive": [
+          "Krajská stopa KSČM/Stačilo."
+        ],
+        "negative": [
+          "Na magistrátu slabší než v kraji."
+        ]
+      },
+      "controversies": [
+        "Značka Stačilo! a celostátní polarizace"
+      ],
+      "sources": [
+        "Metro 6/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-spd",
+      "bodyId": "brno",
+      "party": "SPD a nezávislí",
+      "short": "SPD",
+      "leader": "Jiří Kment",
+      "leaderRole": "zastupitel města Brna",
+      "results2022": {
+        "detail": "SPD mělo zastupitele; Kment a Prokeš v klubu."
+      },
+      "topics": [
+        "Bezpečnost",
+        "Migrace",
+        "Kritika koalice"
+      ],
+      "promises": [
+        "Tvrdší postoj k pořádku",
+        "Národní agenda v Brně"
+      ],
+      "summary": "Kontinuita SPD v zastupitelstvu. Opozice s malou šancí na primátora, reálná šance hlídat radu zprava/protestně.",
+      "trackRecord": {
+        "positive": [
+          "Mandáty a stálý klub."
+        ],
+        "negative": [
+          "Mimo radu, celostátní agenda."
+        ]
+      },
+      "controversies": [
+        "Vnitrostranické tření (iDNES: soukmenovci SPD vlastní cestou)"
+      ],
+      "sources": [
+        "Metro 6/2026",
+        "iDNES 4/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-naplno",
+      "bodyId": "brno",
+      "party": "BRNO NAPLNO (Svobodní, Trikolora, PRO, Moravané)",
+      "short": "Brno naplno",
+      "leader": "Klára Liptáková",
+      "leaderRole": "exnáměstkyně za KDU-ČSL, nyní PRO",
+      "results2022": {
+        "note": "Složení nové; Liptáková má stopu z lidovecké rady v minulosti."
+      },
+      "topics": [
+        "Pravice mimo ODS",
+        "Moravismus (partneři)",
+        "PRO"
+      ],
+      "promises": [
+        "Jiné pravicové Brno než Vaňková/Zlatušková",
+        "Méně „pražské“ politiky"
+      ],
+      "summary": "Liptáková umí úřad, značka je ale sběr menších pravicových stran. Moravané dodávají identitu, ne většinu.",
+      "trackRecord": {
+        "positive": [
+          "Zkušenost náměstkyně."
+        ],
+        "negative": [
+          "Přestup KDU → PRO, důvěra kmenových lidovců."
+        ]
+      },
+      "controversies": [
+        "Ideový posun lídryně"
+      ],
+      "sources": [
+        "Wikipedie ZMB 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-nove",
+      "bodyId": "brno",
+      "party": "Nové Brno",
+      "short": "Nové Brno",
+      "leader": "Michal Sedláček",
+      "leaderRole": "architekt, bývalý městský architekt, Jižní čtvrť / nádraží",
+      "results2022": {
+        "note": "Nové hnutí, cca 15 členů v době vzniku."
+      },
+      "topics": [
+        "Urbanismus",
+        "Nádraží a jih",
+        "Odbornost"
+      ],
+      "promises": [
+        "Město podle plánu, ne podle kšeftu",
+        "Jižní čtvrť"
+      ],
+      "summary": "Expertní listina k největší brněnské stavební kauze. Kompetence města u nádraží je sdílená se státem a SŽ — proto lustrace „prosazovat výš“.",
+      "trackRecord": {
+        "positive": [
+          "Sedláček deset let u jižní čtvrti."
+        ],
+        "negative": [
+          "Malé hnutí, bez klubu 2022."
+        ]
+      },
+      "controversies": [
+        "Spor o polohu nádraží — polarizace města"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Územní plán, městské investice u jihu"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem",
+          "Správa železnic, ministerstvo dopravy, stát u nádraží"
+        ]
+      },
+      "sources": [
+        "Wikipedie ZMB 2026"
+      ]
+    },
+    {
+      "id": "brno-prisaha",
+      "bodyId": "brno",
+      "party": "Přísaha občanské hnutí",
+      "short": "Přísaha",
+      "leader": "Petr Vokřál",
+      "leaderRole": "bývalý primátor Brna",
+      "results2022": {
+        "note": "Vokřál kdysi vyhrál město za ANO, později vlastní projekty. 2026 za Přísahu."
+      },
+      "topics": [
+        "Návrat exprimátora",
+        "Podnikatelský pragmatismus"
+      ],
+      "promises": [
+        "Zkušenost z čela města",
+        "Protikorupční značka Přísahy"
+      ],
+      "summary": "Známé jméno, slabší stroj. iDNES psal, že hrozí, že znovu pohoří. Stopa primátora je plus i mínus (očekávání).",
+      "trackRecord": {
+        "positive": [
+          "Éra primátora, znalost úřadu."
+        ],
+        "negative": [
+          "Dlouho mimo aktuální koalici; riziko slabého výsledku."
+        ]
+      },
+      "controversies": [
+        "Rozchody s ANO v minulosti"
+      ],
+      "sources": [
+        "iDNES 8/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-socdem",
+      "bodyId": "brno",
+      "party": "Sociální demokracie (SOCDEM a NK)",
+      "short": "SOCDEM",
+      "leader": "Zdeněk Slavík",
+      "leaderRole": "zastupitel Kohoutovice, Brněnské komunikace",
+      "results2022": {
+        "mandates": 3,
+        "predecessor": "ČSSD Vaši starostové",
+        "detail": "3 mandáty. Všichni tři zastupitelé stranu opustili (Oliva, Štefan, Viskot). Štefan vypověděl koaliční smlouvu."
+      },
+      "topics": [
+        "Sociální demokracie bez odpadlíků",
+        "Městské firmy"
+      ],
+      "promises": [
+        "Návrat značky do zastupitelstva",
+        "Sociální agenda"
+      ],
+      "summary": "Značka přišla o klub, přesto kandiduje. Slavík je z městské firmy — to je znalost i střet. Voliči socdem mohou jít k Restartu, Žít/Zeleným nebo pryč.",
+      "trackRecord": {
+        "positive": [
+          "Historie ČSSD v Brně."
+        ],
+        "negative": [
+          "Ztráta všech 3 mandátů personálně.",
+          "Rozpad klubu 2025/26."
+        ]
+      },
+      "controversies": [
+        "Koaliční turistika Břetislava Štefana",
+        "Kandidát z Brněnských komunikací"
+      ],
+      "sources": [
+        "Wikipedie ZMB 2026",
+        "Novinky 8/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-b3",
+      "bodyId": "brno",
+      "party": "Brno Brňankám a Brňanům! (VRBa a LANO)",
+      "short": "B3!",
+      "leader": "Matúš Bóna",
+      "leaderRole": "právník",
+      "results2022": {
+        "note": "Nové / okrajové."
+      },
+      "topics": [
+        "Občanský spolek B3!",
+        "Právo"
+      ],
+      "promises": [
+        "Hlas „Brňanů“ mimo velké strany"
+      ],
+      "summary": "Malá listina ze spolku. Spíš doplněk nabídky než uchazeč o primátora.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Bez mandátu."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Wikipedie ZMB 2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "brno-dsz",
+      "bodyId": "brno",
+      "party": "DSZ – Za práva zvířat a NK",
+      "short": "DSZ",
+      "leader": "Ivona Galová",
+      "results2022": {
+        "note": "Okrajová listina."
+      },
+      "topics": [
+        "Práva zvířat"
+      ],
+      "promises": [
+        "Útulky a vyhlášky"
+      ],
+      "summary": "Stejné téma jako v Praze. Město útulky ovlivní, zbytek programu je úzký.",
+      "trackRecord": {
+        "positive": [
+          "Jasné téma."
+        ],
+        "negative": [
+          "Úzký záběr."
+        ]
+      },
+      "controversies": [],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Městské útulky a vyhlášky"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Brněnský deník 2026"
+      ]
+    },
+    {
+      "id": "pce-ano",
+      "bodyId": "pardubice",
+      "party": "ANO 2011",
+      "short": "ANO",
+      "leader": "Jan Nadrchal",
+      "leaderRole": "úřadující primátor",
+      "results2022": {
+        "detail": "ANO vyhrálo, primátorem se po Charvátovi stal Nadrchal. Koalice ANO + Žijeme Pardubice + Společně pro Pardubice, těsná většina 20 z 39."
+      },
+      "topics": [
+        "Kontinuita primátora",
+        "Investice",
+        "Vedení města"
+      ],
+      "promises": [
+        "Dotáhnout projekty",
+        "Stabilita"
+      ],
+      "summary": "Obhajoba radnice. Nadrchal už není nováček. Těsná koalice 20 hlasů znamená, že volby můžou město přehodit jedním klubem.",
+      "trackRecord": {
+        "positive": [
+          "Primátorská zkušenost 2022–26 (nástup po Charvátovi).",
+          "Většina v radě."
+        ],
+        "negative": [
+          "Těsná koalice — křehkost.",
+          "Únava z vládnutí."
+        ]
+      },
+      "controversies": [
+        "Běžné spory opozice o transparentnost a investice (doplňovat z kampaně)"
+      ],
+      "sources": [
+        "Metro 7/2026",
+        "Pardubický deník"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "pce-zijeme",
+      "bodyId": "pardubice",
+      "party": "Žijeme Pardubice (s Pardubáky, Sdružením pro Pardubice, Patrioty, MY)",
+      "short": "Žijeme",
+      "leader": "Jakub Rychtecký",
+      "leaderRole": "náměstek primátora",
+      "results2022": {
+        "predecessor": "Žijeme Pardubice (tehdy s ČSSD, ProPce21)",
+        "detail": "Koaliční partner ANO. Letos širší místní střecha, bez důrazu na ČSSD."
+      },
+      "topics": [
+        "Místní značka",
+        "Koaliční kontinuita",
+        "Rozšíření partnerů"
+      ],
+      "promises": [
+        "Silnější místní blok",
+        "Pokračovat ve vedení"
+      ],
+      "summary": "Nejsilnější „pardubická“ značka vedle ANO. Rychtecký už úřad zná. Otázka, kam zmizeli voliči ČSSD z minulé střechy.",
+      "trackRecord": {
+        "positive": [
+          "Účast v radě, náměstek."
+        ],
+        "negative": [
+          "Změna složení koalice na listině — jiná značka než 2022."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Pardubický deník",
+        "Metro 7/2026"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "pce-prog",
+      "bodyId": "pardubice",
+      "party": "Progresivní Pardubice (Piráti a TOP 09, podpora Zelených)",
+      "short": "Progresivní",
+      "leader": "Martin Slezák",
+      "leaderRole": "zastupitel, právník a dopravní inženýr, TOP 09",
+      "results2022": {
+        "note": "Nová střecha. Piráti, TOP 09 a Zelení dřív zvlášť / v jiných blocích. Teď opoziční spojenectví."
+      },
+      "topics": [
+        "Zrušení městských obvodů",
+        "Klima",
+        "Trolejbusy"
+      ],
+      "promises": [
+        "Zrušit MO",
+        "Adaptace na klima",
+        "Víc trolejbusů"
+      ],
+      "summary": "Nejčitelnější programový experiment: zrušit 8 obvodů. To zastupitelstvo města teoreticky může tlačit (organizace města), ale je to velký konflikt se starosty obvodů.",
+      "trackRecord": {
+        "positive": [
+          "Slezák a Hrdina už jsou zastupitelé.",
+          "Jasná dopravní expertíza."
+        ],
+        "negative": [
+          "Opozice bez gescí 2022–26 v tomto složení."
+        ]
+      },
+      "controversies": [
+        "Návrh zrušit obvody — ostře proti struktuře města"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města",
+          "Sloučení/zrušení městských obvodů je městská organizace",
+          "MHD / trolejbusy v gesci města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem",
+          "Kraj a stát u velkých dopravních staveb"
+        ]
+      },
+      "sources": [
+        "Pardubický deník",
+        "Novinky kandidáti 555134"
+      ]
+    },
+    {
+      "id": "pce-ods",
+      "bodyId": "pardubice",
+      "party": "ODS Pardubice",
+      "short": "ODS",
+      "leader": "Ondřej Tichý",
+      "leaderRole": "podnikatel, předseda spolku",
+      "results2022": {
+        "predecessor": "Část značky šla ve Společně pro Pardubice",
+        "detail": "Letos samostatná ODS. Společně pro Pardubice bylo v koalici s ANO."
+      },
+      "topics": [
+        "Pravice",
+        "Podnikání",
+        "Město bez velké koalice s ANO (v kampani)"
+      ],
+      "promises": [
+        "Občanskodemokratická správa",
+        "Investice s rozvahou"
+      ],
+      "summary": "ODS se letos nevejde do starého „Společně“. Tichý je mladší tvář. Část pravicových voličů může zůstat u vzpomínky na koaliční Společně.",
+      "trackRecord": {
+        "positive": [
+          "Zastupitelská stopa ODS ve městě."
+        ],
+        "negative": [
+          "Rozpad dřívější střechy, nejasný převod mandátů 2022."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Pardubický deník",
+        "Novinky"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "pce-lidovci",
+      "bodyId": "pardubice",
+      "party": "Noví lidovci a Nestraníci",
+      "short": "KDU+",
+      "leader": "Petr Netolický",
+      "results2022": {
+        "detail": "Lidovci hledali koaliční partnery, nenašli — jdou s nestraníky. Na listině mj. Vít Ulrych."
+      },
+      "topics": [
+        "Školství a sport",
+        "Konzervativní střed",
+        "Nestraníci"
+      ],
+      "promises": [
+        "Služby, kluby, uměřenost"
+      ],
+      "summary": "KDU bez velkého partnera. Netolický je známé krajské/městské jméno. Riziko: sami pod prahem, pokud se hlasy neposkládají.",
+      "trackRecord": {
+        "positive": [
+          "Dlouhá personální stopa ve městě a kraji."
+        ],
+        "negative": [
+          "Izolace na kandidátce 2026."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Metro 7/2026",
+        "Novinky"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "pce-stan",
+      "bodyId": "pardubice",
+      "party": "STAROSTOVÉ A NEZÁVISLÍ",
+      "short": "STAN",
+      "leader": "Daniel Vondra",
+      "leaderRole": "politolog, aktivista (manželství pro všechny); 2. Jiří Hájek, exposlanec",
+      "results2022": {
+        "detail": "STAN ve městě měli zastoupení; letos nový lídr mimo klasického starostu."
+      },
+      "topics": [
+        "Občanská práva",
+        "Projektový management",
+        "Opozice"
+      ],
+      "promises": [
+        "Otevřenější město",
+        "Jiné akcenty než ANO"
+      ],
+      "summary": "STAN s aktivistickým lídrem. Hájek na dvojce dodává parlamentní jméno. Otázka, jestli pardubický STAN chce spíš slušnost, nebo kulturní válku.",
+      "trackRecord": {
+        "positive": [
+          "Celostátní značka STAN."
+        ],
+        "negative": [
+          "Lídr bez primátorské stopy."
+        ]
+      },
+      "controversies": [
+        "Téma manželství pro všechny je spíš zákon, ne vyhláška města"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)",
+          "Manželství / občanský zákoník — Sněmovna a Senát"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      },
+      "sources": [
+        "Metro 7/2026"
+      ]
+    },
+    {
+      "id": "pce-spd",
+      "bodyId": "pardubice",
+      "party": "SPD s podporou Trikolory, Svobodných a NK",
+      "short": "SPD+",
+      "leader": "Leoš Janda",
+      "leaderRole": "zastupitel, Trikolora, technický ředitel",
+      "results2022": {
+        "detail": "SPD měli zastupitele. Jednička je z Trikolory na listině SPD."
+      },
+      "topics": [
+        "Protest",
+        "Trikolora uvnitř SPD listiny"
+      ],
+      "promises": [
+        "Tvrdší opozice",
+        "Národní agenda"
+      ],
+      "summary": "Stejný vzorec jako jinde: SPD půjčuje lístek menším značkám. Janda už v zastupitelstvu je.",
+      "trackRecord": {
+        "positive": [
+          "Mandát, znalost jednání."
+        ],
+        "negative": [
+          "Mimo radu."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Novinky kandidáti Pardubice",
+        "Pardubický deník"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "pce-nase",
+      "bodyId": "pardubice",
+      "party": "NAŠE PARDUBICE – „Nechme město rozkvést“",
+      "short": "Naše Pardubice",
+      "leader": "Filip Sedlák",
+      "leaderRole": "zastupitel, pedagog, protikorupční aktivista",
+      "results2022": {
+        "detail": "Sedlák vedl listinu i před čtyřmi lety, mandát mají."
+      },
+      "topics": [
+        "Protikorupce",
+        "Kontrola radnice",
+        "Městská zeleň (slogan)"
+      ],
+      "promises": [
+        "Hlídání zakázek",
+        "Otevřenost"
+      ],
+      "summary": "Lokální kontrolní značka. Nejsou velká koalice, jsou nepříjemní v interpelacích — to je jejich produkt.",
+      "trackRecord": {
+        "positive": [
+          "Kontinuita lídra a mandátu."
+        ],
+        "negative": [
+          "Bez gescí, omezený výkon."
+        ]
+      },
+      "controversies": [
+        "Konflikty s radnicí v mediálním prostoru (typické pro aktivistický klub)"
+      ],
+      "sources": [
+        "Pardubický deník",
+        "Novinky"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "pce-srdcem",
+      "bodyId": "pardubice",
+      "party": "Srdcem pro Pardubice",
+      "short": "Srdcem",
+      "leader": "Josef Rak",
+      "results2022": {
+        "note": "Menší / novější listina vůči velké šestce."
+      },
+      "topics": [
+        "Lokální sdružení"
+      ],
+      "promises": [
+        "Město srdcem — měkká lokální agenda"
+      ],
+      "summary": "Devátá listina. Pro voliče mimo strany. Bez silné stopy v radě 2022 v tomto názvu.",
+      "trackRecord": {
+        "positive": [],
+        "negative": [
+          "Slabší viditelnost."
+        ]
+      },
+      "controversies": [],
+      "sources": [
+        "Pardubický deník"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Místní dopravu, parkování a MHD (organizace, tarify v kompetenci města)",
+          "Územní plán, developerské projekty a veřejný prostor",
+          "Mateřské a základní školy, které město zřizuje",
+          "Obecní byty, sociální služby města a městskou policii",
+          "Odpady, zeleň, sportoviště a kulturní příspěvkovky města",
+          "Místní poplatky a rozpočet obce/města"
+        ],
+        "cannotDecide": [
+          "Státní daně, důchody, státní sociální dávky",
+          "Armádu, zahraniční politiku a azylové řízení státu",
+          "Trestní zákony a justici",
+          "Celostátní ceny energií a DPH",
+          "Vysoké školy a fakultní nemocnice (to je stát/kraj)"
+        ],
+        "canAdvocate": [
+          "Změny zákonů přes poslance, senátory a vládu",
+          "Krajské silnice, železnici a velké dopravní stavby",
+          "Peníze ze státního rozpočtu a evropské fondy",
+          "Pravidla zdravotnictví a školství nastavená státem"
+        ]
+      }
+    },
+    {
+      "id": "s21-laska",
+      "bodyId": "sen-21",
+      "party": "SEN 21",
+      "leader": "Václav Láska",
+      "results2022": {
+        "note": "Obhajoba. Senát 2020 (ne 2022 — obvody se střídají).",
+        "detail": "Úřadující senátor obvodu 21."
+      },
+      "summary": "Obhájce. Současně vede magistrátní SEN pro Prahu. Senát ovlivní zákony, ne parkování na Smíchově — to říká lustrace.",
+      "topics": [
+        "Obhajoba",
+        "Liberální střed",
+        "Justice / dohled"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s21-broz",
+      "bodyId": "sen-21",
+      "party": "ANO",
+      "leader": "Lubomír Brož",
+      "results2022": {
+        "note": "ANO v obvodu 2020 neuspělo na mandát (obvod drží Láska)."
+      },
+      "summary": "Radní MČ Praha 5, ekonom. Tvář ANO pro Smíchov a okolí. Městskou část zná, Senát je jiná hra.",
+      "topics": [
+        "MČ Praha 5",
+        "ANO"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s21-sablik",
+      "bodyId": "sen-21",
+      "party": "Koalice ODS, KDU-ČSL a STAN",
+      "leader": "Radko Sáblík",
+      "results2022": {
+        "note": "Školská tvář (Smíchovská SPŠ)."
+      },
+      "summary": "Ředitel známé školy. Koalice tří vládních značek proti Láskovi. Téma školství je spíš ministerstvo, on může tlačit zákony.",
+      "topics": [
+        "Školství",
+        "SPOLU/STAN blok"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň",
+          "Školské zákony ve spolupráci se Sněmovnou"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s21-sarapatka",
+      "bodyId": "sen-21",
+      "party": "Koalice TOP 09, Piráti a LES",
+      "leader": "Zdeněk Šarapatka",
+      "results2022": {
+        "note": "Publicista, bývalý radní ČT."
+      },
+      "summary": "Mediální jméno na středopravé listině mimo ODS blok. Štěpí antivládní i vládní voliče.",
+      "topics": [
+        "Média",
+        "Komentátorská značka"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s21-spirov",
+      "bodyId": "sen-21",
+      "party": "SPD (podpora PRO)",
+      "leader": "Pavel Spirov",
+      "results2022": {
+        "note": "SPD v obvodu."
+      },
+      "summary": "Vysokoškolský pedagog za SPD. Protestní hlas v Praze 5.",
+      "topics": [
+        "SPD",
+        "PRO"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s21-proksanova",
+      "bodyId": "sen-21",
+      "party": "KSČM (podpora ČSSD a KSČ)",
+      "leader": "Petra Prokšanová",
+      "results2022": {
+        "note": "Levicová listina."
+      },
+      "summary": "Socioložka na spojené levici. V Praze 5 těžký obvod pro KSČM.",
+      "topics": [
+        "Levice"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s21-augustin",
+      "bodyId": "sen-21",
+      "party": "Přísaha",
+      "leader": "Ľubomír Augustín",
+      "results2022": {
+        "note": "Přísaha."
+      },
+      "summary": "Právník a ekonom. Malá značka v senátním poli.",
+      "topics": [
+        "Přísaha"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s24-smoljak",
+      "bodyId": "sen-24",
+      "party": "STAN + Piráti + KDU-ČSL + Zelení + TOP 09 (podpora LES)",
+      "leader": "David Smoljak",
+      "results2022": {
+        "note": "Obhajoba, senátor od 2020. Cimrmanolog, média."
+      },
+      "summary": "Široká středová střecha na obhájce. Smoljak je známý bojovník o nezávislost médií — to je senátní téma (rady, zákony), ne svoz odpadu v Letňanech.",
+      "topics": [
+        "Obhajoba",
+        "Média",
+        "Široká koalice"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň",
+          "Mediální legislativa, rady ČT/ČRo v mezích zákona"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s24-peckova",
+      "bodyId": "sen-24",
+      "party": "ODS",
+      "leader": "Dagmar Pecková",
+      "results2022": {
+        "note": "Nová kandidátka, operní pěvkyně."
+      },
+      "summary": "Celebrity kandidátka ODS. Mediálně nejsilnější jméno obvodu vedle Smoljaka. Zkušenost ze Senátu nulová, známost vysoká.",
+      "topics": [
+        "Kultura",
+        "ODS"
+      ],
+      "controversies": [
+        "Otázka, zda je kampaň o obvodu, nebo o jménu"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s24-zalud",
+      "bodyId": "sen-24",
+      "party": "ANO",
+      "leader": "Radek Žalud",
+      "results2022": {
+        "note": "ANO, IT, hudebník. (V přehledech dříve i Roman Žalud — oficiálně Radek.)"
+      },
+      "summary": "ANO proti obhájci a Peckové. Méně známý než oba favorité.",
+      "topics": [
+        "ANO"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s24-laube",
+      "bodyId": "sen-24",
+      "party": "Svobodní + SPD + Trikolora + PRO",
+      "leader": "Bedřich Laube",
+      "results2022": {
+        "note": "Zároveň lídr Svobodných na magistrátu."
+      },
+      "summary": "Pravicově-protestní blok. Dvojí kampaň: ZHMP i Senát.",
+      "topics": [
+        "Svobodní",
+        "SPD blok"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s24-batyiova",
+      "bodyId": "sen-24",
+      "party": "Hnutí Kruh",
+      "leader": "Darina Batyiová",
+      "results2022": {
+        "note": "Kruh."
+      },
+      "summary": "Finanční analytička. Malá značka, senátní kampaň jako zviditelnění.",
+      "topics": [
+        "Kruh"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-padevet",
+      "bodyId": "sen-27",
+      "party": "STAN + ODS + Piráti + TOP 09",
+      "leader": "Jiří Padevět",
+      "results2022": {
+        "note": "Obvod drží Miroslava Němcová (ODS), letos nekandiduje v přehledech jako obhájkyně na této listině — střecha je širší, jednička Padevět."
+      },
+      "summary": "Spisovatel a nakladatel na široké koalici. Praha 1 je prestižní obvod, 9 kandidátů — nejvíc v ČR.",
+      "topics": [
+        "Kultura",
+        "Široká koalice"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-cizinskyj",
+      "bodyId": "sen-27",
+      "party": "Praha sobě + Zelení + KDU-ČSL + SEN 21",
+      "leader": "Jan Čižinský",
+      "results2022": {
+        "note": "Exstarosta Prahy 7, tvář Prahy sobě. Na magistrátu je na 3. místě."
+      },
+      "summary": "Nejsilnější lokální značka širšího centra. Senát vs. magistrát — Čižinský umí obojí vyprávět jako službu Praze.",
+      "topics": [
+        "Praha sobě",
+        "Centrum"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-cizinskyp",
+      "bodyId": "sen-27",
+      "party": "Levice",
+      "leader": "Pavel Čižinský",
+      "results2022": {
+        "note": "Přešel z obvodu 24 na 27. Zároveň magistrátní jednička Levice."
+      },
+      "summary": "Dva Čižinští v jednom obvodu — volič musí číst jméno. Pavel je Levice, Jan je Praha sobě.",
+      "topics": [
+        "Levice",
+        "Bydlení"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-dudra",
+      "bodyId": "sen-27",
+      "party": "ANO",
+      "leader": "Ján Dudra",
+      "results2022": {
+        "note": "Náhrada za Karla Grabeina Procházku."
+      },
+      "summary": "Lékař, ANO. Personální změna na poslední chvíli.",
+      "topics": [
+        "ANO",
+        "Zdravotnictví"
+      ],
+      "controversies": [
+        "Výměna kandidáta ANO"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-stern",
+      "bodyId": "sen-27",
+      "party": "TEAM",
+      "leader": "Jan Štern",
+      "results2022": {
+        "note": "Producent, souvislost s JSME PRAHA / TEAM."
+      },
+      "summary": "Kulturní jméno na nové značce. Spíš doplněk magistrátní kampaně Komrskové.",
+      "topics": [
+        "TEAM"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-ryvola",
+      "bodyId": "sen-27",
+      "party": "GEN",
+      "leader": "Vojtěch Ryvola",
+      "results2022": {
+        "note": "Radní MČ Praha 1."
+      },
+      "summary": "Lokální radní na celostátní listině GEN. Zná Prahu 1, Senát je skok.",
+      "topics": [
+        "Praha 1",
+        "GEN"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-morstadt",
+      "bodyId": "sen-27",
+      "party": "Generace",
+      "leader": "Jiří Morštadt",
+      "results2022": {
+        "note": "Podnikatel, vydavatel."
+      },
+      "summary": "Další malá značka v přeplněném obvodu.",
+      "topics": [
+        "Generace"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-kolman",
+      "bodyId": "sen-27",
+      "party": "SOCDEM",
+      "leader": "Vladimír Kolman",
+      "results2022": {
+        "note": "Sociální demokracie."
+      },
+      "summary": "SOCDEM v centru Prahy. Těžký obvod.",
+      "topics": [
+        "SOCDEM"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s27-pesek",
+      "bodyId": "sen-27",
+      "party": "Švýcarská demokracie",
+      "leader": "Pavel Pešek",
+      "results2022": {
+        "note": "Okrajová značka."
+      },
+      "summary": "Přímá demokracie v názvu. Senát referenda celostátně nenařídí sám.",
+      "topics": [
+        "Přímá demokracie"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s60-papousek",
+      "bodyId": "sen-60",
+      "party": "ODS + KDU-ČSL + Piráti + Fakt Brno + TOP 09",
+      "leader": "Zdeněk Papoušek",
+      "results2022": {
+        "note": "Obhajoba, senátor Brno-město.",
+        "detail": "Široká střecha včetně Pirátů a Fakt Brno."
+      },
+      "summary": "Úřadující senátor se širokou podporou napříč koalicí i částí opozice magistrátu. Těžko ho vyřadit v 1. kole, ale Brno je polarizované.",
+      "topics": [
+        "Obhajoba",
+        "Široká koalice"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s60-zitterbart",
+      "bodyId": "sen-60",
+      "party": "STAN",
+      "leader": "Karel Zitterbart",
+      "results2022": {
+        "note": "Obhajuje mandát, ale z obvodu 57 Vyškov — teď kandiduje v Brně. Obvod 57 letos taky volí, on tam nejde."
+      },
+      "summary": "Přestup senátora do Brna. STAN vs. široký blok Papouška. Lékař, známý z Vyškova.",
+      "topics": [
+        "STAN",
+        "Přestup obvodu"
+      ],
+      "controversies": [
+        "Opouští obvod 57, kde se taky volí"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s60-sterba",
+      "bodyId": "sen-60",
+      "party": "ANO",
+      "leader": "Jaroslav Štěrba",
+      "results2022": {
+        "note": "Prof. MUDr., FN Brno prostředí."
+      },
+      "summary": "Silné lékařské jméno ANO v univerzitním městě. Kompetence Senátu u fakultní nemocnice je zákonodárná, ne ředitelská.",
+      "topics": [
+        "ANO",
+        "Zdravotnictví"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň",
+          "Zdravotní zákony"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad",
+          "Jmenování ředitele FN — ministerstvo/zřizovatel"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s60-turanek",
+      "bodyId": "sen-60",
+      "party": "SPD (podpora PRO, JaSaN)",
+      "leader": "Jaroslav Turánek",
+      "results2022": {
+        "note": "SPD."
+      },
+      "summary": "Profesor, SPD. Odborná vizitka na protestní značce.",
+      "topics": [
+        "SPD"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s60-samkova",
+      "bodyId": "sen-60",
+      "party": "Stačilo!",
+      "leader": "Klára Alžběta Samková",
+      "results2022": {
+        "note": "Advokátka, Praha 2 — kandiduje v Brně."
+      },
+      "summary": "Celostátní tvář Stačilo! v Brně. Medializace osobnosti často přebije obvod.",
+      "topics": [
+        "Stačilo!"
+      ],
+      "controversies": [
+        "Trvalé bydliště mimo Brno",
+        "Mediální spory Samkové"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": "s60-holcnerova",
+      "bodyId": "sen-60",
+      "party": "Hnutí Kruh",
+      "leader": "Veronika Holcnerová",
+      "results2022": {
+        "note": "Kruh, inženýrka, Brno."
+      },
+      "summary": "Lokální Kruh proti velkým blokům. Malá šance, čitelná alternativa.",
+      "topics": [
+        "Kruh"
+      ],
+      "lustration": {
+        "canInfluence": [
+          "Zákony v Senátu (schvalovat, vracet, pozměňovat)",
+          "Kontrolu vlády a veřejných institucí",
+          "Personálie (soudci ÚS, ombudsman, členové rad ČT/ČRo podle zákona)",
+          "Regionální témata zvedat na celostátní úroveň"
+        ],
+        "cannotDecide": [
+          "Sami nenařídí MHD, územní plán ani rozpočet městské části",
+          "Nestanoví důchody ani daně bez Poslanecké sněmovny a vlády",
+          "Neřídí policii v ulicích ani stavební úřad"
+        ],
+        "canAdvocate": [
+          "Tlak na vládu a Sněmovnu",
+          "Spolupráci s magistrátem a krajem u konkrétních staveb",
+          "Evropská témata skrze parlamentní diplomacii"
+        ]
+      },
+      "promises": [],
+      "controversies": [],
+      "sources": [],
+      "trackRecord": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ]
+}
