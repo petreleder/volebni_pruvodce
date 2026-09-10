@@ -1,7 +1,10 @@
 const data = window.VOLBY;
+const G = window.GUIDE;
+const KEY = "volby2026-loc";
 
 const $ = (id) => document.getElementById(id);
-const citySel = $("city");
+const hdrCity = $("hdr-city");
+const hdrDistrict = $("hdr-district");
 const kindSel = $("kind");
 const bodySel = $("body");
 const qInput = $("q");
@@ -9,89 +12,205 @@ const rows = $("rows");
 const hint = $("hint");
 const drawer = $("drawer");
 const detail = $("detail");
+const quiz = $("quiz");
+const results = $("results");
 
-const cities = [...new Set(data.bodies.map((b) => b.city))];
-cities.forEach((c) => {
-  const o = document.createElement("option");
-  o.value = c;
-  o.textContent = c;
-  citySel.appendChild(o);
-});
+const cities = ["Praha", "Brno", "Pardubice"];
+let loc = { city: "", districtId: "" };
+let answers = {};
+let lastQuestions = [];
 
-function bodiesForFilters() {
-  return data.bodies.filter((b) => {
-    if (citySel.value && b.city !== citySel.value) return false;
-    if (kindSel.value && b.kind !== kindSel.value) return false;
-    return true;
+function districts(city) {
+  return data.bodies
+    .filter((b) => b.city === city && b.kind === "district")
+    .sort((a, b) => a.name.localeCompare(b.name, "cs"));
+}
+
+function fillCitySelect(sel, withEmpty) {
+  sel.innerHTML = withEmpty ? '<option value="">Vyber město</option>' : "";
+  cities.forEach((c) => {
+    const o = document.createElement("option");
+    o.value = c;
+    o.textContent = c;
+    sel.appendChild(o);
   });
 }
 
-function refreshBodies() {
-  const keep = bodySel.value;
-  bodySel.innerHTML = '<option value="">Všechny</option>';
-  bodiesForFilters().forEach((b) => {
+function fillDistrictSelect(sel, city, withEmpty) {
+  sel.innerHTML = "";
+  if (!city) {
+    sel.innerHTML = '<option value="">Nejdřív město</option>';
+    sel.disabled = true;
+    return;
+  }
+  sel.disabled = false;
+  if (withEmpty) {
+    const z = document.createElement("option");
+    z.value = "";
+    z.textContent = "Vyber obvod";
+    sel.appendChild(z);
+  }
+  districts(city).forEach((b) => {
     const o = document.createElement("option");
     o.value = b.id;
-    o.textContent = b.name;
-    bodySel.appendChild(o);
+    o.textContent = b.note ? `${b.name} (${b.note})` : b.name;
+    sel.appendChild(o);
   });
-  if ([...bodySel.options].some((o) => o.value === keep)) bodySel.value = keep;
 }
 
-function placeholder(body) {
-  return {
-    id: "ph-" + body.id,
-    bodyId: body.id,
-    party: "Kandidátky této MČ/obvodu zatím bez importu",
-    leader: "—",
-    placeholder: true,
-    topics: ["Obvod je v databázi", "ČSÚ listiny se nepodařilo stáhnout"],
-    summary:
-      "Městská část/obvod je založená, ale jmenné kandidátky 2026 sem ČSÚ web nepustil (blokace). Magistrátní a senátní listiny jsou vyplněné. Doplní se importem z volby.gov.cz.",
-    results2022: { note: "doplnit z ČSÚ u této MČ" },
-    promises: [],
-    trackRecord: { positive: [], negative: [] },
-    controversies: [],
-    lustration: {
-      canInfluence: ["Místní komunikace, parky, školky, odpad, parkování v MČ"],
-      cannotDecide: ["Daně, důchody, armáda, celostátní zákony"],
-      canAdvocate: ["Tlak na magistrát, kraj a ministerstva"],
-    },
-    sources: ["Geografie: oficiální členění města"],
-  };
+function saveLoc() {
+  localStorage.setItem(KEY, JSON.stringify(loc));
 }
 
-function lists() {
-  const q = qInput.value.trim().toLowerCase();
-  const showPlaceholders =
-    kindSel.value === "district" ||
-    data.bodies.find((b) => b.id === bodySel.value)?.kind === "district";
-  const extras = showPlaceholders
-    ? data.bodies
-        .filter((b) => b.kind === "district")
-        .filter((b) => !data.lists.some((l) => l.bodyId === b.id))
-        .map(placeholder)
-    : [];
-  return [...data.lists, ...extras].filter((item) => {
-    const body = data.bodies.find((b) => b.id === item.bodyId);
-    if (!body) return false;
-    if (citySel.value && body.city !== citySel.value) return false;
-    if (kindSel.value && body.kind !== kindSel.value) return false;
-    if (bodySel.value && item.bodyId !== bodySel.value) return false;
-    if (!q) return true;
-    const blob = [
-      item.party,
-      item.short,
-      item.leader,
-      item.summary,
-      ...(item.topics || []),
-      body.name,
-      body.city,
-    ]
-      .join(" ")
-      .toLowerCase();
-    return blob.includes(q);
+function loadLoc() {
+  try {
+    return JSON.parse(localStorage.getItem(KEY) || "null");
+  } catch {
+    return null;
+  }
+}
+
+function bodyById(id) {
+  return data.bodies.find((b) => b.id === id);
+}
+
+function cityBody(city) {
+  return data.bodies.find((b) => b.city === city && b.kind === "city");
+}
+
+function listsFor(bodyId) {
+  return data.lists.filter((l) => l.bodyId === bodyId);
+}
+
+function setLoc(city, districtId, persist) {
+  loc = { city, districtId };
+  hdrCity.value = city;
+  fillDistrictSelect(hdrDistrict, city, false);
+  if (districtId && [...hdrDistrict.options].some((o) => o.value === districtId)) {
+    hdrDistrict.value = districtId;
+  } else if (hdrDistrict.options.length) {
+    loc.districtId = hdrDistrict.value;
+  }
+  if (persist !== false) saveLoc();
+  answers = {};
+  renderGuide();
+  syncTableFilters();
+  renderTable();
+  renderSenate();
+}
+
+function renderGuide() {
+  const district = bodyById(loc.districtId);
+  const city = cityBody(loc.city);
+  const nCity = listsFor(city?.id).length;
+  const nDist = listsFor(loc.districtId).length;
+  $("guide-intro").textContent = district
+    ? `Otázky jsou pro ${loc.city}. Po vyplnění uvidíš procentní shodu se zastupitelstvem města (${nCity} listin) i s ${district.name} (${nDist} listin). „Nevím“ se do výpočtu nepočítá.`
+    : "";
+  lastQuestions = G.questionsFor(loc.city, loc.districtId);
+  quiz.innerHTML = lastQuestions
+    .map((q, i) => {
+      const opts =
+        q.type === "likert"
+          ? G.LIKERT.map(
+              (o) =>
+                `<button type="button" data-q="${q.id}" data-val="${o.value ?? "skip"}" aria-pressed="${String(answers[q.id]) === String(o.value ?? "skip")}">${o.label}</button>`
+            ).join("")
+          : q.options
+              .map(
+                (o) =>
+                  `<button type="button" data-q="${q.id}" data-val="${o.id}" aria-pressed="${answers[q.id] === o.id}">${o.label}</button>`
+              )
+              .join("");
+      return `<div class="q">
+        <h3>${i + 1}. ${q.text}</h3>
+        <div class="opts ${q.type === "choice" ? "stack" : ""}">${opts}</div>
+      </div>`;
+    })
+    .join("");
+  results.hidden = true;
+  results.innerHTML = "";
+}
+
+function rankBlock(title, ranked, emptyNote) {
+  if (!ranked.length) return `<div class="rank"><h2>${title}</h2><p>${emptyNote}</p></div>`;
+  const top = ranked[0];
+  const rowsHtml = ranked
+    .map((r) => {
+      const why = r.why.length ? `<p class="why">${r.why[0]}</p>` : "";
+      return `<div class="bar-row" data-id="${r.item.id}">
+        <div><strong>${r.item.party}</strong><br>${r.item.leader || ""}${why}</div>
+        <div class="pct">${r.percent} %</div>
+        <div class="bar"><span style="width:${r.percent}%"></span></div>
+      </div>`;
+    })
+    .join("");
+  return `<div class="rank">
+    <h2>${title}</h2>
+    <p>Nejvyšší shoda: <strong>${top.item.party}</strong> (${top.percent} %) · lídr ${top.item.leader}.</p>
+    ${rowsHtml}
+  </div>`;
+}
+
+function showResults() {
+  const answered = lastQuestions.filter((q) => {
+    const a = answers[q.id];
+    return a != null && a !== "" && a !== "skip";
+  }).length;
+  if (!answered) {
+    results.hidden = false;
+    results.innerHTML = `<p class="note">Vyber aspoň jednu odpověď kromě „Nevím“.</p>`;
+    return;
+  }
+  const city = cityBody(loc.city);
+  const district = bodyById(loc.districtId);
+  const cityRank = G.scoreLists(listsFor(city.id), lastQuestions, answers);
+  const distLists = listsFor(loc.districtId);
+  const distRank = G.scoreLists(distLists, lastQuestions, answers);
+  const few =
+    distLists.length <= 2
+      ? `<p class="note">V ${district.name} kandiduje ${distLists.length === 1 ? "jen jedna listina" : "jen dvě listiny"}. Procenta tu spíš popisují, jak sedí k tvým odpovědím, než že bys měl z čeho vybírat.</p>`
+      : "";
+  results.hidden = false;
+  results.innerHTML =
+    `<p class="note">Započteno ${answered} z ${lastQuestions.length} otázek. Klikni na listinu pro detail.</p>` +
+    few +
+    rankBlock(`Zastupitelstvo města — ${loc.city}`, cityRank, "Chybí listiny města.") +
+    rankBlock(district.name, distRank, "V tomto obvodu nejsou v datech kandidátky.");
+  results.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+quiz.addEventListener("click", (e) => {
+  const btn = e.target.closest("button[data-q]");
+  if (!btn) return;
+  answers[btn.dataset.q] = btn.dataset.val;
+  quiz.querySelectorAll(`button[data-q="${btn.dataset.q}"]`).forEach((b) => {
+    b.setAttribute("aria-pressed", String(b === btn));
   });
+});
+
+$("submit-quiz").addEventListener("click", showResults);
+$("reset-quiz").addEventListener("click", () => {
+  answers = {};
+  renderGuide();
+});
+
+results.addEventListener("click", (e) => {
+  const row = e.target.closest("[data-id]");
+  if (row) openDetail(row.dataset.id);
+});
+
+function syncTableFilters() {
+  bodySel.innerHTML = '<option value="">Všechny v tomto městě</option>';
+  data.bodies
+    .filter((b) => b.city === loc.city)
+    .forEach((b) => {
+      const o = document.createElement("option");
+      o.value = b.id;
+      o.textContent = b.name;
+      bodySel.appendChild(o);
+    });
+  bodySel.value = loc.districtId || "";
 }
 
 function resultText(item) {
@@ -106,29 +225,23 @@ function resultText(item) {
   return bits.join(" · ") || "—";
 }
 
-function renderStats() {
-  const cityLists = data.lists.filter((l) => data.bodies.find((b) => b.id === l.bodyId)?.kind === "city");
-  const senate = data.lists.filter((l) => data.bodies.find((b) => b.id === l.bodyId)?.kind === "senate");
-  const districts = data.bodies.filter((b) => b.kind === "district").length;
-  $("stats").innerHTML = `
-    <div><dt>Kandidátek</dt><dd>${data.lists.length}</dd></div>
-    <div><dt>Magistrát + senát</dt><dd>${cityLists.length + senate.length}</dd></div>
-    <div><dt>MČ / obvody</dt><dd>${districts}</dd></div>
-  `;
-}
-
-function render() {
-  refreshBodies();
-  const items = lists();
-  const dist = data.bodies.filter((b) => {
-    if (b.kind !== "district") return false;
-    if (citySel.value && b.city !== citySel.value) return false;
-    return true;
+function renderTable() {
+  const q = qInput.value.trim().toLowerCase();
+  const items = data.lists.filter((item) => {
+    const body = bodyById(item.bodyId);
+    if (!body || body.city !== loc.city) return false;
+    if (kindSel.value && body.kind !== kindSel.value) return false;
+    if (bodySel.value && item.bodyId !== bodySel.value) return false;
+    if (!q) return true;
+    const blob = [item.party, item.short, item.leader, item.summary, ...(item.topics || []), body.name]
+      .join(" ")
+      .toLowerCase();
+    return blob.includes(q);
   });
-  hint.textContent = `${items.length} záznamů. Městské části/obvody: ${dist.length}. Klikni na řádek pro detail (lídr, 2022, lustrace).`;
+  hint.textContent = `${items.length} záznamů pro ${loc.city}. Klikni na řádek pro detail.`;
   rows.innerHTML = items
     .map((item) => {
-      const body = data.bodies.find((b) => b.id === item.bodyId);
+      const body = bodyById(item.bodyId);
       const kindLabel = body.kind === "senate" ? "Senát" : body.kind === "district" ? "MČ/obvod" : "Město";
       return `<tr data-id="${item.id}">
         <td>${body.city}</td>
@@ -136,11 +249,44 @@ function render() {
         <td><strong>${item.party}</strong></td>
         <td>${item.leader}</td>
         <td>${resultText(item)}</td>
-        <td class="topics">${(item.topics || []).slice(0, 3).join(" · ")}</td>
+        <td>${(item.topics || []).slice(0, 3).join(" · ")}</td>
       </tr>`;
     })
     .join("");
 }
+
+function renderSenate() {
+  const box = $("senate-box");
+  const info = G.senateFor(loc.city, loc.districtId);
+  const district = bodyById(loc.districtId);
+  if (info.none) {
+    box.innerHTML = `<div class="note"><h2 style="margin-top:0">${info.title}</h2><p>${info.note}</p>
+      <p>Bydlíš v ${district ? district.name : loc.city}. Komunální volby (město i obvod) se konají všude.</p></div>`;
+    return;
+  }
+  const body = bodyById(info.id);
+  const cands = listsFor(info.id);
+  const warn = info.note ? `<p class="note">${info.note}</p>` : "";
+  box.innerHTML = `
+    <p>Podle ${district.name} spadáš do <strong>${body.name}</strong>. Volby do Senátu: 9.–10. 10. 2026, případné 2. kolo 16.–17. 10.</p>
+    ${warn}
+    <div class="cards">
+      ${cands
+        .map(
+          (c) => `<article class="card" data-id="${c.id}">
+            <h3>${c.leader}</h3>
+            <p>${c.party}</p>
+            <p>${resultText(c)}</p>
+          </article>`
+        )
+        .join("")}
+    </div>`;
+}
+
+$("senate-box").addEventListener("click", (e) => {
+  const card = e.target.closest("[data-id]");
+  if (card) openDetail(card.dataset.id);
+});
 
 function listBlock(title, arr) {
   if (!arr || !arr.length) return "";
@@ -150,7 +296,7 @@ function listBlock(title, arr) {
 function openDetail(id) {
   const item = data.lists.find((l) => l.id === id);
   if (!item) return;
-  const body = data.bodies.find((b) => b.id === item.bodyId);
+  const body = bodyById(item.bodyId);
   const lus = item.lustration || {};
   detail.innerHTML = `
     <div class="detail">
@@ -164,8 +310,8 @@ function openDetail(id) {
       <p>${resultText(item)}${item.results2022?.detail ? " — " + item.results2022.detail : ""}</p>
       <h3>Co mají za sebou</h3>
       <ul>
-        ${(item.trackRecord?.positive || []).map((x) => `<li class="pos">${x}</li>`).join("")}
-        ${(item.trackRecord?.negative || []).map((x) => `<li class="neg">${x}</li>`).join("")}
+        ${(item.trackRecord?.positive || []).map((x) => `<li>${x}</li>`).join("")}
+        ${(item.trackRecord?.negative || []).map((x) => `<li>${x}</li>`).join("")}
       </ul>
       ${listBlock("Minulé kauzy a medializace", item.controversies)}
       <h3>Lustrace programu</h3>
@@ -180,10 +326,27 @@ function openDetail(id) {
   drawer.hidden = false;
 }
 
-citySel.addEventListener("change", render);
-kindSel.addEventListener("change", render);
-bodySel.addEventListener("change", render);
-qInput.addEventListener("input", render);
+function setTab(name) {
+  document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("is-on", t.dataset.tab === name));
+  $("panel-guide").hidden = name !== "guide";
+  $("panel-table").hidden = name !== "table";
+  $("panel-senate").hidden = name !== "senate";
+  if (name === "table") renderTable();
+  if (name === "senate") renderSenate();
+}
+
+document.querySelectorAll(".tab").forEach((t) => {
+  t.addEventListener("click", () => setTab(t.dataset.tab));
+});
+
+hdrCity.addEventListener("change", () => {
+  const first = districts(hdrCity.value)[0];
+  setLoc(hdrCity.value, first?.id || "", true);
+});
+hdrDistrict.addEventListener("change", () => setLoc(hdrCity.value, hdrDistrict.value, true));
+kindSel.addEventListener("change", renderTable);
+bodySel.addEventListener("change", renderTable);
+qInput.addEventListener("input", renderTable);
 rows.addEventListener("click", (e) => {
   const tr = e.target.closest("tr");
   if (tr?.dataset.id) openDetail(tr.dataset.id);
@@ -196,5 +359,35 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") drawer.hidden = true;
 });
 
-renderStats();
-render();
+const overlay = $("loc-overlay");
+const startCity = $("start-city");
+const startDistrict = $("start-district");
+const startOk = $("start-ok");
+
+function refreshStart() {
+  fillDistrictSelect(startDistrict, startCity.value, true);
+  startOk.disabled = !(startCity.value && startDistrict.value);
+}
+startCity.addEventListener("change", refreshStart);
+startDistrict.addEventListener("change", () => {
+  startOk.disabled = !(startCity.value && startDistrict.value);
+});
+startOk.addEventListener("click", () => {
+  setLoc(startCity.value, startDistrict.value, true);
+  overlay.hidden = true;
+  overlay.setAttribute("aria-hidden", "true");
+});
+
+fillCitySelect(hdrCity, false);
+fillCitySelect(startCity, true);
+
+const saved = loadLoc();
+if (saved?.city && saved?.districtId && bodyById(saved.districtId)) {
+  overlay.hidden = true;
+  overlay.setAttribute("aria-hidden", "true");
+  setLoc(saved.city, saved.districtId, false);
+} else {
+  overlay.hidden = false;
+  overlay.setAttribute("aria-hidden", "false");
+  fillDistrictSelect(hdrDistrict, "Praha", false);
+}

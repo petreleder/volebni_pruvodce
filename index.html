@@ -8,61 +8,82 @@
 </head>
 <body>
   <header class="top">
-    <div class="top-inner">
+    <div class="top-row">
       <div>
         <p class="eyebrow">Komunální a senátní volby · 9.–10. 10. 2026</p>
-        <h1>Databáze stran a programů</h1>
-        <p class="lede">Praha, Brno a Pardubice — magistráty, městské části/obvody a senátní obvody, kde se letos volí.</p>
+        <h1>Volební průvodce</h1>
       </div>
-      <dl class="stats" id="stats"></dl>
+      <div class="loc">
+        <label>
+          Město
+          <select id="hdr-city"></select>
+        </label>
+        <label>
+          Obvod
+          <select id="hdr-district"></select>
+        </label>
+      </div>
     </div>
+    <nav class="tabs" aria-label="Sekce">
+      <button type="button" class="tab is-on" data-tab="guide">Volební průvodce</button>
+      <button type="button" class="tab" data-tab="table">Srovnávací tabulka</button>
+      <button type="button" class="tab" data-tab="senate">Senátoři</button>
+    </nav>
   </header>
 
-  <section class="filters">
-    <label>
-      Město
-      <select id="city">
-        <option value="">Všechna</option>
-      </select>
-    </label>
-    <label>
-      Typ
-      <select id="kind">
-        <option value="">Vše</option>
-        <option value="city">Zastupitelstvo města</option>
-        <option value="district">Městská část / obvod</option>
-        <option value="senate">Senát 2026</option>
-      </select>
-    </label>
-    <label>
-      Obvod
-      <select id="body">
-        <option value="">Všechny</option>
-      </select>
-    </label>
-    <label class="grow">
-      Hledat
-      <input id="q" type="search" placeholder="strana, lídr, téma…" />
-    </label>
-  </section>
+  <main>
+    <section id="panel-guide" class="panel">
+      <p class="intro" id="guide-intro"></p>
+      <form id="quiz"></form>
+      <div class="actions">
+        <button type="button" id="submit-quiz">Vyhodnotit shodu</button>
+        <button type="button" class="ghost" id="reset-quiz">Vymazat odpovědi</button>
+      </div>
+      <div id="results" hidden></div>
+    </section>
 
-  <p class="hint" id="hint"></p>
+    <section id="panel-table" class="panel" hidden>
+      <div class="filters">
+        <label>
+          Typ
+          <select id="kind">
+            <option value="">Vše v tomto městě</option>
+            <option value="city">Zastupitelstvo města</option>
+            <option value="district">Městská část / obvod</option>
+            <option value="senate">Senát 2026</option>
+          </select>
+        </label>
+        <label>
+          Obvod v tabulce
+          <select id="body"></select>
+        </label>
+        <label class="grow">
+          Hledat
+          <input id="q" type="search" placeholder="strana, lídr, téma…" />
+        </label>
+      </div>
+      <p class="hint" id="hint"></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Město</th>
+              <th>Obvod</th>
+              <th>Strana / uskupení</th>
+              <th>Lídr</th>
+              <th>2022</th>
+              <th>Hlavní témata</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
 
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Město</th>
-          <th>Obvod</th>
-          <th>Strana / uskupení</th>
-          <th>Lídr</th>
-          <th>2022</th>
-          <th>Hlavní témata</th>
-        </tr>
-      </thead>
-      <tbody id="rows"></tbody>
-    </table>
-  </div>
+    <section id="panel-senate" class="panel" hidden>
+      <div id="senate-box"></div>
+    </section>
+  </main>
 
   <aside class="drawer" id="drawer" hidden>
     <div class="drawer-panel">
@@ -71,11 +92,35 @@
     </div>
   </aside>
 
+  <div class="overlay" id="loc-overlay" hidden aria-hidden="true">
+    <div class="overlay-card">
+      <h2>Kde budeš volit?</h2>
+      <p>Podle města a městské části / obvodu ti přiřadíme kandidátky a senátní obvod, pokud se tu letos senátor volí.</p>
+      <label>
+        Město
+        <select id="start-city">
+          <option value="">Vyber město</option>
+          <option value="Praha">Praha</option>
+          <option value="Brno">Brno</option>
+          <option value="Pardubice">Pardubice</option>
+        </select>
+      </label>
+      <label>
+        Městská část / obvod
+        <select id="start-district" disabled>
+          <option value="">Nejdřív město</option>
+        </select>
+      </label>
+      <button type="button" id="start-ok" disabled>Pokračovat</button>
+    </div>
+  </div>
+
   <footer>
-    <p>U magistrátů je rozbor z veřejných programů 2026 (co slibují vs. co město smí). U MČ jsou tytéž sliby převedené na užší kompetenci části. Senát jen tam, kde se letos volí.</p>
+    <p>Shoda v průvodci je orientační: stupnice a místní dilemata podle veřejných programů 2026. U MČ jde často o příbuznost s magistrátní značkou. Senát jen obvody 21, 24, 27 a 60.</p>
   </footer>
 
   <script src="data.js"></script>
+  <script src="questions.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
