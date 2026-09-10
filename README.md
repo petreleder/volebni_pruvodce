@@ -11,7 +11,7 @@ Otevři `index.html` v prohlížeči (nebo GitHub Pages). Filtry: město, typ, o
 - **Zastupitelstvo Pardubic** — 9 listin
 - **Senát 2026** jen obvody, kde se volí a spadají sem: **21 Praha 5, 24 Praha 9, 27 Praha 1, 60 Brno-město**
 - V **Pardubicích se senátor letos nevolí** (obvod 43 není v letošní třetině)
-- **Všechny MČ/obvody** (Praha 57, Brno 29, Pardubice 8) jsou v geografii; jmenné kandidátky MČ ČSÚ web při skládání nepustil (403)
+- **Městské části/obvody** — kandidátky a lídři z otevřených dat ČSÚ (KV 2026), výsledky 2022 tam, kde šla značka spárovat
 
 ## Lustrace programu
 
@@ -27,7 +27,8 @@ U každé listiny tři koše:
 | --- | --- |
 | `index.html` | Tabulka |
 | `data.js` / `data/volby.json` | Data |
-| `scripts/generate_data.py` | Zdroj dat — po úpravě spusť `python3 scripts/generate_data.py` |
+| `scripts/generate_data.py` | Magistrát + senát |
+| `scripts/enrich_programs.py` | Rozbor programů + lustrace kompetencí |
 
 ## GitHub Pages
 

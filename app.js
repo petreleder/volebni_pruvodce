@@ -125,7 +125,7 @@ function render() {
     if (citySel.value && b.city !== citySel.value) return false;
     return true;
   });
-  hint.textContent = `${items.length} záznamů. Městské části/obvody v databázi: ${dist.length} (kandidátky na úrovni MČ se z ČSÚ nepodařilo stáhnout — klikni na řádek pro detail).`;
+  hint.textContent = `${items.length} záznamů. Městské části/obvody: ${dist.length}. Klikni na řádek pro detail (lídr, 2022, lustrace).`;
   rows.innerHTML = items
     .map((item) => {
       const body = data.bodies.find((b) => b.id === item.bodyId);
@@ -158,7 +158,8 @@ function openDetail(id) {
       <p class="meta">${body.city} · ${body.name}<br>Lídr: <strong>${item.leader}</strong>${item.leaderRole ? " · " + item.leaderRole : ""}</p>
       <h3>Shrnutí srozumitelně</h3>
       <p>${item.summary}</p>
-      ${listBlock("Hlavní témata a sliby", [...(item.topics || []), ...(item.promises || [])])}
+      ${listBlock("Hlavní témata", item.topics)}
+      ${listBlock("Sliby z programu", item.promises)}
       <h3>Výsledky v předchozích volbách</h3>
       <p>${resultText(item)}${item.results2022?.detail ? " — " + item.results2022.detail : ""}</p>
       <h3>Co mají za sebou</h3>
