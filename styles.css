@@ -53,6 +53,7 @@ button.ghost { font-weight: 500; }
   max-width: 1100px;
   margin: 0.9rem auto 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 0;
 }
 .tab {
@@ -164,6 +165,8 @@ tbody tr:hover { background: #f3f3f3; }
 .detail h2 { margin: 0 0 0.2rem; }
 .detail h3 { margin: 1.1rem 0 0.35rem; font-size: 0.95rem; }
 .detail ul { margin: 0.2rem 0 0; padding-left: 1.15rem; }
+.detail ol.cands { margin: 0.2rem 0 0; padding-left: 0; list-style: none; }
+.detail ol.cands li { margin: 0.2rem 0; font-size: 0.92rem; }
 .lus { display: grid; gap: 0.6rem; }
 .lus section { border: 1px solid #111; padding: 0.6rem 0.7rem; }
 .lus h4 { margin: 0 0 0.3rem; }
@@ -188,6 +191,36 @@ tbody tr:hover { background: #f3f3f3; }
 .overlay-card p { margin: 0 0 1rem; }
 .overlay-card label { margin-bottom: 0.75rem; }
 .overlay-card button { width: 100%; background: #111; color: #fff; margin-top: 0.4rem; }
+
+.ask-title { font-size: 1.2rem; margin: 0 0 0.4rem; }
+#ask-form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.35rem 0 0.7rem;
+  min-height: 5.5rem;
+  resize: vertical;
+}
+.ask-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 0.85rem;
+}
+.ask-examples button {
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+.ask-hit {
+  border: 1px solid #111;
+  padding: 0.85rem 0.95rem;
+  margin: 0 0 0.75rem;
+  cursor: pointer;
+}
+.ask-hit:hover { background: #f3f3f3; }
+.ask-hit h3 { margin: 0 0 0.25rem; font-size: 1.02rem; }
+.ask-hit .meta { margin: 0 0 0.45rem; }
+.ask-hit .sol { margin: 0; }
+.ask-hit .caveat { margin: 0.45rem 0 0; font-size: 0.9rem; }
 
 footer { font-size: 0.85rem; }
 .panel[hidden] { display: none; }

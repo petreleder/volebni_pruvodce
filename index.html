@@ -26,6 +26,7 @@
     </div>
     <nav class="tabs" aria-label="Sekce">
       <button type="button" class="tab is-on" data-tab="guide">Volební průvodce</button>
+      <button type="button" class="tab" data-tab="ask">Řeší to někdo?</button>
       <button type="button" class="tab" data-tab="table">Srovnávací tabulka</button>
       <button type="button" class="tab" data-tab="senate">Senátoři</button>
     </nav>
@@ -40,6 +41,20 @@
         <button type="button" class="ghost" id="reset-quiz">Vymazat odpovědi</button>
       </div>
       <div id="results" hidden></div>
+    </section>
+
+    <section id="panel-ask" class="panel" hidden>
+      <h2 class="ask-title">Řeší to někdo v programu?</h2>
+      <p class="intro" id="ask-intro"></p>
+      <form id="ask-form">
+        <label class="grow" for="ask-q">Co tě trápí</label>
+        <textarea id="ask-q" rows="3" placeholder="Např. Nemám kde parkovat u domu. Chybí školka. Vadí mi Airbnb v centru."></textarea>
+        <div class="ask-examples" id="ask-examples"></div>
+        <div class="actions">
+          <button type="submit">Hledat v programech</button>
+        </div>
+      </form>
+      <div id="ask-results"></div>
     </section>
 
     <section id="panel-table" class="panel" hidden>
